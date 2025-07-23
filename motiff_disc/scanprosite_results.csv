@@ -1,0 +1,44 @@
+sequence_ac	start	stop	signature_ac	score	level	record_id	seqID	prosite_ann
+sample_1_Rep	7	117	PS52020	22.900	0	sample_1_Rep	sample_1_Rep	CRESS-DNA virus replication initiator protein (Rep) endonuclease domain profile.
+sample_1_Rep	45	47	PS00005			sample_1_Rep	sample_1_Rep	Protein kinase C phosphorylation site.
+sample_1_Rep	68	71	PS00006			sample_1_Rep	sample_1_Rep	Casein kinase II phosphorylation site.
+sample_1_Rep	70	72	PS00005			sample_1_Rep	sample_1_Rep	Protein kinase C phosphorylation site.
+sample_1_Rep	74	76	PS00005			sample_1_Rep	sample_1_Rep	Protein kinase C phosphorylation site.
+sample_1_Rep	77	80	PS00001			sample_1_Rep	sample_1_Rep	N-glycosylation site.
+sample_1_Rep	79	82	PS00006			sample_1_Rep	sample_1_Rep	Casein kinase II phosphorylation site.
+sample_1_Rep	85	90	PS00008			sample_1_Rep	sample_1_Rep	N-myristoylation site.
+sample_1_Rep	122	127	PS00008			sample_1_Rep	sample_1_Rep	N-myristoylation site.
+sample_1_Rep	126	128	PS00005			sample_1_Rep	sample_1_Rep	Protein kinase C phosphorylation site.
+sample_1_Rep	126	129	PS00006			sample_1_Rep	sample_1_Rep	Casein kinase II phosphorylation site.
+sample_1_Rep	220	227	PS00017			sample_1_Rep	sample_1_Rep	ATP/GTP-binding site motif A (P-loop).
+sample_1_Rep	269	271	PS00005			sample_1_Rep	sample_1_Rep	Protein kinase C phosphorylation site.
+sample_1_Rep	275	280	PS00008			sample_1_Rep	sample_1_Rep	N-myristoylation site.
+sample_1_Rep	283	285	PS00005			sample_1_Rep	sample_1_Rep	Protein kinase C phosphorylation site.
+sample_1_Rep	305	308	PS00006			sample_1_Rep	sample_1_Rep	Casein kinase II phosphorylation site.
+sample_2_Rep	45	47	PS00005			sample_2_Rep	sample_2_Rep	Protein kinase C phosphorylation site.
+sample_2_Rep	56	61	PS00008			sample_2_Rep	sample_2_Rep	N-myristoylation site.
+sample_2_Rep	93	98	PS00008			sample_2_Rep	sample_2_Rep	N-myristoylation site.
+sample_2_Rep	97	99	PS00005			sample_2_Rep	sample_2_Rep	Protein kinase C phosphorylation site.
+sample_2_Rep	97	100	PS00006			sample_2_Rep	sample_2_Rep	Casein kinase II phosphorylation site.
+sample_2_Rep	191	198	PS00017			sample_2_Rep	sample_2_Rep	ATP/GTP-binding site motif A (P-loop).
+sample_2_Rep	240	242	PS00005			sample_2_Rep	sample_2_Rep	Protein kinase C phosphorylation site.
+sample_2_Rep	246	251	PS00008			sample_2_Rep	sample_2_Rep	N-myristoylation site.
+sample_2_Rep	254	256	PS00005			sample_2_Rep	sample_2_Rep	Protein kinase C phosphorylation site.
+sample_2_Rep	276	279	PS00006			sample_2_Rep	sample_2_Rep	Casein kinase II phosphorylation site.
+sample_3_Rep	7	123	PS52020	18.686	0	sample_3_Rep	sample_3_Rep	CRESS-DNA virus replication initiator protein (Rep) endonuclease domain profile.
+sample_3_Rep	68	70	PS00005			sample_3_Rep	sample_3_Rep	Protein kinase C phosphorylation site.
+sample_3_Rep	74	77	PS00006			sample_3_Rep	sample_3_Rep	Casein kinase II phosphorylation site.
+sample_3_Rep	76	78	PS00005			sample_3_Rep	sample_3_Rep	Protein kinase C phosphorylation site.
+sample_3_Rep	80	82	PS00005			sample_3_Rep	sample_3_Rep	Protein kinase C phosphorylation site.
+sample_3_Rep	83	86	PS00001			sample_3_Rep	sample_3_Rep	N-glycosylation site.
+sample_3_Rep	85	88	PS00006			sample_3_Rep	sample_3_Rep	Casein kinase II phosphorylation site.
+sample_3_Rep	91	96	PS00008			sample_3_Rep	sample_3_Rep	N-myristoylation site.
+sample_3_Rep	128	133	PS00008			sample_3_Rep	sample_3_Rep	N-myristoylation site.
+sample_3_Rep	132	134	PS00005			sample_3_Rep	sample_3_Rep	Protein kinase C phosphorylation site.
+sample_3_Rep	132	135	PS00006			sample_3_Rep	sample_3_Rep	Casein kinase II phosphorylation site.
+sample_3_Rep	171	174	PS00001			sample_3_Rep	sample_3_Rep	N-glycosylation site.
+sample_3_Rep	226	233	PS00017			sample_3_Rep	sample_3_Rep	ATP/GTP-binding site motif A (P-loop).
+sample_3_Rep	275	277	PS00005			sample_3_Rep	sample_3_Rep	Protein kinase C phosphorylation site.
+sample_3_Rep	281	286	PS00008			sample_3_Rep	sample_3_Rep	N-myristoylation site.
+sample_3_Rep	289	291	PS00005			sample_3_Rep	sample_3_Rep	Protein kinase C phosphorylation site.
+sample_3_Rep	311	314	PS00006			sample_3_Rep	sample_3_Rep	Casein kinase II phosphorylation site.

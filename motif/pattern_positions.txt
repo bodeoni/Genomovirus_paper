@@ -1,0 +1,4 @@
+seqID	patternName	pattern	strand	start	end	matched
+sample_1_Rep	WLSN	WLSN	+	300	303	WLSN
+sample_2_Rep	WLSN	WLSN	+	271	274	WLSN
+sample_3_Rep	WLSN	WLSN	+	306	309	WLSN

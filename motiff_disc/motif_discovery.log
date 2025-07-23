@@ -1,0 +1,16 @@
+2025-07-23 05:33:34,274 - INFO - Starting motif_discovery module.
+2025-07-23 05:33:34,279 - INFO - Detected sequence type: protein
+2025-07-23 05:33:34,279 - INFO - Using provided MEME arguments: ['-nmotifs', '20', '-minw', '5', '-maxw', '8', '-mod zoops -evt 0.05']
+2025-07-23 05:33:34,279 - INFO - Running MEME
+2025-07-23 05:33:34,279 - INFO - Running command: meme Rep_Combined.faa -oc motiff_disc -protein -nmotifs 20 -minw 5 -maxw 8 -mod zoops -evt 0.05
+2025-07-23 05:33:38,799 - INFO - Command succeeded: meme Rep_Combined.faa -oc motiff_disc -protein -nmotifs 20 -minw 5 -maxw 8 -mod zoops -evt 0.05
+2025-07-23 05:33:38,799 - INFO - Parsing MEME outputs
+2025-07-23 05:33:38,834 - INFO - Parsed 31 motifs from motiff_disc/meme.xml
+2025-07-23 05:33:38,853 - INFO - Motif table saved to: motiff_disc/motif_table.csv
+2025-07-23 05:33:38,857 - INFO - Consensus table saved to: motiff_disc/consensus_table.csv
+2025-07-23 05:33:38,857 - INFO - Moved eps files to motiff_disc/eps_files
+2025-07-23 05:33:38,857 - INFO - ScanProsite selected.
+2025-07-23 05:33:38,857 - INFO - Scanning protein sequences online against the Prosite database
+2025-07-23 05:33:50,058 - INFO - Parsing ScanProsite outputs.
+2025-07-23 05:33:50,058 - INFO - Adding Prosite annotation
+2025-07-23 05:33:52,654 - INFO - ScanProsite results saved to: motiff_disc/scanprosite_results.csv

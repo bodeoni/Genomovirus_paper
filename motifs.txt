@@ -1,0 +1,12 @@
+>RCR_I 
+[ILVMFYW]{2}TY.Q
+>RCR_II
+.H.H.
+>RCR_III
+Y..K
+>Walker_A 
+G.{4}GK[TS]
+>Walker_B 
+[ILVMFYW]{2}DD[ILVMFYW]
+>Motif_C 
+[ILVMFYW].{2}N

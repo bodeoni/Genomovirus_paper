@@ -1,0 +1,87 @@
+LOCUS       sample_2                2090 bp    DNA     circular UNA 21-JUL-2025
+DEFINITION  .
+ACCESSION   urn.local...36s-jfnvifs
+VERSION     urn.local...36s-jfnvifs
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     CDS             join(1..613,764..1065)
+                     /locus_tag="QKO69_gp2"
+                     /codon_start=1
+                     /product="replication protein"
+                     /protein_id="YP_010798590.1"
+                     /db_xref="GeneID:80536827"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="replication protein CDS"
+     gene            1..1065
+                     /locus_tag="QKO69_gp2"
+                     /db_xref="GeneID:80536827"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="Rep"
+     CDS             complement(1062..1961)
+                     /locus_tag="QKO69_gp1"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_010798589.1"
+                     /db_xref="GeneID:80536828"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="capsid protein CDS"
+     gene            complement(1062..1961)
+                     /locus_tag="QKO69_gp1"
+                     /db_xref="GeneID:80536828"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="Capsid Protein"
+     source          complement(1991..1989)
+                     /organism="Gemycircularvirus sp."
+                     /mol_type="genomic DNA"
+                     /strain="Vietnam"
+                     /isolation_source="nasal-throat swab from female patient
+                     in acute respiratory diseases"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1983771"
+                     /geo_loc_name="Viet Nam"
+                     /collection_date="08-Aug-2013"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+ORIGIN      
+        1 atgtctacgt cccagtttcg attccgcgct aagtcttgtc tgcttacgta ctcgcaaacc
+       61 actgagccac aacaagatgc gtttttacac cgagcggaga atcatttcaa ctatgttgcc
+      121 gatgctctcg gaactcctcg cgtctaccga ctcctcgact ttcatggctc tcacccaaat
+      181 attaagccaa ttccaagaac gcctgaacac gctttcgatt atgccggaaa ggatggtgac
+      241 atcatatatg aacgtggaga gagacctgga aaatctggaa ctctttcaag cggacgtgac
+      301 agcatatggg cagatgctct atctcaacaa tgcgaagaag actttttgtc ggttctgcgc
+      361 aacagggctc caagagactt tgtcctctat tttaatgcaa tcaagaacta cgcagcatac
+      421 cactttgcct cggaggcccc tgagtatcat ccgcccgaat ttgagacgat ccaatgcgag
+      481 gaactcgacc gattcaatga atggctttct caatctggaa tcgggggacg agaacgacca
+      541 aacggcagag taagaagcct atgcatctgg ggcaaaacga gattggggaa aacggtacta
+      601 gcaagatcac taggtaagct atgcgtgggc ttcgcccaca cccggaggtg aactgtcacg
+      661 catacgctcg ccgctagggc atgtgatatg tgttggccgg ccttcggtat tcgggggggc
+      721 ccctaccccc ccctctccgg ccggcaaaag ctaactgact caggtaaaca caactattgg
+      781 ctgaatatgt ggaacgccga ctacgcatac gacgacgtcg agtacgcagt gttcgatgac
+      841 atcataggag gattcgaaca aatgagatct tacaaagctt ggttcggtgc acaggaaacc
+      901 ttcgacgtgt ctgacaaata tagacacaaa aaaagaatgc actgggggaa acctagtatc
+      961 tggctatcca actacagtcc atacgaaagt ggaaacctgg atcacgaatg gtgggaagaa
+     1021 aacgtaatca caatacattt agaaaacaaa attgtaacta gctagccttc agcccaatac
+     1081 aaccgccctt cacactgaac aacagcacga tctccacttt cctcttgttg aacaccagga
+     1141 gaaaatatgt caaaaatgta caaattcccc ttagatgcac gattaggagc actccaagga
+     1201 gaaccggtat tgaaattacc gctctcatca tccaaatacc acagacgacc tcctcggtaa
+     1261 taatgattaa aagtgtaaat cttggggacc gtcgtattcg ggttcaaacg gtaggtctta
+     1321 tccatttgaa cgtggacaaa tcgggtattc acgggggctt gaatcaaggt atccacacca
+     1381 taatcaacac ctgacgtacc ctcaaatatc aaggtacgaa tatcaagggt attctccacc
+     1441 ggggtcatct gcctagtgta ataggcattc ccactagcat cagcaccccc tttcctcgga
+     1501 ccaatagcag caggcaattg aacgtaagac caaaacacta ttctccgcca taacgtaggc
+     1561 agtgagacat tgatgttgat cctttcctta tacccggtaa gataaatctt ctcattaaat
+     1621 cgaccgtgac gagattctcg ggacatcaca gacccatcaa gatagggcct cgttcgagcg
+     1681 gtaggacaga acaacaacaa agtattagga ttccccgcag tggaattaat aggagtcacc
+     1741 ggattgttat tagaattatg ggcaggccga ataacatcat ttttgttatt gtagggagac
+     1801 aaaaccctac tcttagggat tactcggttt cttcttctga atcctcctcg tctgtagttt
+     1861 cctcgtcggt agaaggatcg ccttcgacct gcatattttc gacggagtgg gtagcgtctt
+     1921 cgacggttga accgtccgcg aaaggaacgt cgatacgcca taatttagaa agtggggtca
+     1981 tgacagaaaa aaaataacgc agcgtacact gtggtacagt ggggtcggga aggggtattt
+     2041 ataacccgac ctgggacgct gggacgctgg gacgtagaca gaatcttata
+//

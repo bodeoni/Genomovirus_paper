@@ -1,0 +1,10 @@
+##gff-version 3
+##source-version geneious 2025.1.3
+##sequence-region	sample_1	1	2177
+sample_1	Geneious	region	1	2177	.	+	0	Is_circular=true
+sample_1	Geneious	CDS	1	700	.	+	0	Name=replication protein CDS;ID=1850Rm1UEzy8Xg6F7zvo6NhAeQo.1753059786058.0
+sample_1	Geneious	CDS	851	1152	.	+	0	Name=replication protein CDS;ID=1850Rm1UEzy8Xg6F7zvo6NhAeQo.1753059786058.0
+sample_1	Geneious	gene	1	1152	.	+	.	Name=Rep
+sample_1	Geneious	CDS	1149	2048	.	-	0	Name=capsid protein CDS
+sample_1	Geneious	gene	1149	2048	.	-	.	Name=Capsid Protein
+sample_1	Geneious	source	2078	4253	.	-	.	Name=source Gemycircularvirus sp.

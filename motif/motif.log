@@ -1,0 +1,13 @@
+2025-07-23 02:36:29,555 - INFO - Starting motif module.
+2025-07-23 02:36:29,562 - INFO - FASTA format validated.
+2025-07-23 02:36:29,562 - INFO - Using input FASTA: Rep_Combined.faa
+2025-07-23 02:36:29,562 - INFO - Searching for motif with pattern: WLSN
+2025-07-23 02:36:29,562 - INFO - Running command: seqkit locate --id-ncbi -i -r -p 'WLSN' Rep_Combined.faa > motif/pattern_positions.txt
+2025-07-23 02:36:29,592 - INFO - Command succeeded: seqkit locate --id-ncbi -i -r -p 'WLSN' Rep_Combined.faa > motif/pattern_positions.txt
+2025-07-23 02:36:29,592 - INFO - Total number of patterns found: 3
+2025-07-23 02:36:29,592 - INFO - Motif positions saved in: motif/pattern_positions.txt
+2025-07-23 02:36:29,592 - INFO - Output directory set to: motif/
+2025-07-23 02:36:29,592 - INFO - Running command: ['Rscript', '/home/jupyter-olabode.onile-ere/.conda/envs/cressent/lib/python3.13/site-packages/cressent/modules/seq_logo.R', 'seq_df=motif/pattern_positions.txt', 'plot_title=sequence_logo', 'output_dir=motif/', 'output_name=sequence_logo.pdf', 'height=10.0', 'width=10.0', 'split=FALSE', 'metadata=', 'ncol=', 'group_label=']
+2025-07-23 02:36:33,193 - INFO - Command succeeded: ['Rscript', '/home/jupyter-olabode.onile-ere/.conda/envs/cressent/lib/python3.13/site-packages/cressent/modules/seq_logo.R', 'seq_df=motif/pattern_positions.txt', 'plot_title=sequence_logo', 'output_dir=motif/', 'output_name=sequence_logo.pdf', 'height=10.0', 'width=10.0', 'split=FALSE', 'metadata=', 'ncol=', 'group_label=']
+2025-07-23 02:36:33,193 - INFO - Sequence logo generated: motif/sequence_logo.pdf
+2025-07-23 02:36:33,193 - INFO - Motif logo module finished.

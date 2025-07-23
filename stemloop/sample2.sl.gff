@@ -1,0 +1,5 @@
+##gff-version 3
+sample_2	sl_finder	stem_loop	2022	2052	.	-	.	Name=stem-loop
+sample_2	sl_finder	nonanucleotide	2035	2043	.	-	.	Name=nona
+sample_2	sl_finder	stem_loop	2022	2052	.	+	.	Name=stem-loop
+sample_2	sl_finder	nonanucleotide	2036	2044	.	+	.	Name=nona

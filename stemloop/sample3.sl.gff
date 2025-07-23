@@ -1,0 +1,25 @@
+##gff-version 3
+sample_3	sl_finder	stem_loop	270	294	.	-	.	Name=stem-loop
+sample_3	sl_finder	nonanucleotide	278	286	.	-	.	Name=nona
+sample_3	sl_finder	stem_loop	270	294	.	-	.	Name=stem-loop
+sample_3	sl_finder	nonanucleotide	281	289	.	-	.	Name=nona
+sample_3	sl_finder	stem_loop	892	913	.	-	.	Name=stem-loop
+sample_3	sl_finder	nonanucleotide	900	908	.	-	.	Name=nona
+sample_3	sl_finder	stem_loop	1012	1032	.	-	.	Name=stem-loop
+sample_3	sl_finder	nonanucleotide	1017	1025	.	-	.	Name=nona
+sample_3	sl_finder	stem_loop	1012	1032	.	-	.	Name=stem-loop
+sample_3	sl_finder	nonanucleotide	1019	1027	.	-	.	Name=nona
+sample_3	sl_finder	stem_loop	1294	1314	.	-	.	Name=stem-loop
+sample_3	sl_finder	nonanucleotide	1300	1308	.	-	.	Name=nona
+sample_3	sl_finder	stem_loop	1471	1491	.	-	.	Name=stem-loop
+sample_3	sl_finder	nonanucleotide	1476	1484	.	-	.	Name=nona
+sample_3	sl_finder	stem_loop	2072	2093	.	+	.	Name=stem-loop
+sample_3	sl_finder	nonanucleotide	2080	2088	.	+	.	Name=nona
+sample_3	sl_finder	stem_loop	2129	2147	.	+	.	Name=stem-loop
+sample_3	sl_finder	nonanucleotide	2134	2142	.	+	.	Name=nona
+sample_3	sl_finder	stem_loop	2167	2201	.	-	.	Name=stem-loop
+sample_3	sl_finder	nonanucleotide	2178	2186	.	-	.	Name=nona
+sample_3	sl_finder	stem_loop	2166	2202	.	-	.	Name=stem-loop
+sample_3	sl_finder	nonanucleotide	2181	2189	.	-	.	Name=nona
+sample_3	sl_finder	stem_loop	2170	2198	.	+	.	Name=stem-loop
+sample_3	sl_finder	nonanucleotide	2185	2193	.	+	.	Name=nona

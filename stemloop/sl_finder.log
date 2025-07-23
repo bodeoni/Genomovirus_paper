@@ -1,0 +1,303 @@
+2025-07-21 01:13:24,130 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample1.fasta, annot/sample_1.gff
+2025-07-21 01:13:24,130 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:13:24,133 - INFO - Processing record: sample_1
+2025-07-21 01:13:24,145 - INFO - Wrote GFF annotations to stemloop/sample1.sl.gff
+2025-07-21 01:13:24,145 - INFO - Wrote CSV output to stemloop/sample1.sl.csv
+2025-07-21 01:13:24,145 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:14:15,402 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample2.fasta, annot/sample_2.gff
+2025-07-21 01:14:15,402 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:14:15,405 - INFO - Processing record: sample_2
+2025-07-21 01:14:15,416 - INFO - Wrote GFF annotations to stemloop/sample2.sl.gff
+2025-07-21 01:14:15,416 - INFO - Wrote CSV output to stemloop/sample2.sl.csv
+2025-07-21 01:14:15,416 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:15:01,476 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample2.fasta, annot/sample_2.gff
+2025-07-21 01:15:01,476 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:15:01,479 - INFO - Processing record: sample_2
+2025-07-21 01:15:01,491 - INFO - Found stem-loop at 2022-2052 in sample_2
+2025-07-21 01:15:01,492 - INFO - Found stem-loop at 2022-2052 in sample_2
+2025-07-21 01:15:01,492 - INFO - Wrote GFF annotations to stemloop/sample2.sl.gff
+2025-07-21 01:15:01,492 - INFO - Wrote CSV output to stemloop/sample2.sl.csv
+2025-07-21 01:15:01,492 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:15:53,201 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample1.fasta, annot/sample_1.gff
+2025-07-21 01:15:53,201 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:15:53,204 - INFO - Processing record: sample_1
+2025-07-21 01:15:53,216 - INFO - Found stem-loop at 2109-2139 in sample_1
+2025-07-21 01:15:53,217 - INFO - Found stem-loop at 2109-2139 in sample_1
+2025-07-21 01:15:53,217 - INFO - Wrote GFF annotations to stemloop/sample1.sl.gff
+2025-07-21 01:15:53,217 - INFO - Wrote CSV output to stemloop/sample1.sl.csv
+2025-07-21 01:15:53,217 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:17:07,292 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample3.fasta, annot/sample_3.gff
+2025-07-21 01:17:07,292 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:17:07,295 - INFO - Processing record: sample_3
+2025-07-21 01:17:07,306 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:17:07,306 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:17:07,307 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:18:58,773 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample3.fasta, annot/sample_3.gff
+2025-07-21 01:18:58,773 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:18:58,776 - INFO - Processing record: sample_3
+2025-07-21 01:18:58,787 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:18:58,788 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:18:58,788 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:20:35,545 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample3.fasta, annot/sample_3.gff
+2025-07-21 01:20:35,545 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:20:35,548 - INFO - Processing record: sample_3
+2025-07-21 01:20:35,560 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:20:35,560 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:20:35,560 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:25:00,985 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample3.fasta, annot/sample_3.gff
+2025-07-21 01:25:00,985 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:25:00,988 - INFO - Processing record: sample_3
+2025-07-21 01:25:01,003 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:25:01,003 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:25:01,003 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:26:13,044 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample3.fasta, annot/sample_3.gff
+2025-07-21 01:26:13,044 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:26:13,047 - INFO - Processing record: sample_3
+2025-07-21 01:26:13,219 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:26:13,219 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:26:13,220 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:26:13,221 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:26:13,221 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:26:13,222 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:26:13,222 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:26:13,355 - INFO - Found stem-loop at 469-491 in sample_3
+2025-07-21 01:26:13,368 - INFO - Found stem-loop at 483-511 in sample_3
+2025-07-21 01:26:13,622 - INFO - Found stem-loop at 892-913 in sample_3
+2025-07-21 01:26:13,623 - INFO - Found stem-loop at 892-913 in sample_3
+2025-07-21 01:26:13,699 - INFO - Found stem-loop at 1012-1032 in sample_3
+2025-07-21 01:26:13,700 - INFO - Found stem-loop at 1012-1032 in sample_3
+2025-07-21 01:26:13,700 - INFO - Found stem-loop at 1012-1032 in sample_3
+2025-07-21 01:26:13,761 - INFO - Found stem-loop at 1113-1133 in sample_3
+2025-07-21 01:26:13,762 - INFO - Found stem-loop at 1113-1133 in sample_3
+2025-07-21 01:26:13,807 - INFO - Found stem-loop at 1196-1223 in sample_3
+2025-07-21 01:26:13,851 - INFO - Found stem-loop at 1274-1292 in sample_3
+2025-07-21 01:26:13,862 - INFO - Found stem-loop at 1294-1314 in sample_3
+2025-07-21 01:26:13,863 - INFO - Found stem-loop at 1294-1314 in sample_3
+2025-07-21 01:26:13,863 - INFO - Found stem-loop at 1294-1314 in sample_3
+2025-07-21 01:26:13,974 - INFO - Found stem-loop at 1471-1491 in sample_3
+2025-07-21 01:26:13,975 - INFO - Found stem-loop at 1471-1491 in sample_3
+2025-07-21 01:26:13,976 - INFO - Found stem-loop at 1471-1491 in sample_3
+2025-07-21 01:26:14,148 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:26:14,148 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:26:14,149 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:26:14,150 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:26:14,150 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:26:14,151 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:26:14,152 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:26:14,152 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:26:14,153 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:26:14,211 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:26:14,212 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:26:14,213 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:26:14,213 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:26:14,214 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:26:14,215 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:26:14,216 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:26:14,217 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:26:14,218 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:26:14,219 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:26:14,270 - INFO - Found stem-loop at 1925-1944 in sample_3
+2025-07-21 01:26:14,271 - INFO - Found stem-loop at 1925-1944 in sample_3
+2025-07-21 01:26:14,364 - INFO - Found stem-loop at 2072-2093 in sample_3
+2025-07-21 01:26:14,364 - INFO - Found stem-loop at 2072-2093 in sample_3
+2025-07-21 01:26:14,365 - INFO - Found stem-loop at 2072-2093 in sample_3
+2025-07-21 01:26:14,366 - INFO - Found stem-loop at 2072-2093 in sample_3
+2025-07-21 01:26:14,403 - INFO - Found stem-loop at 2129-2147 in sample_3
+2025-07-21 01:26:14,434 - INFO - Found stem-loop at 2170-2198 in sample_3
+2025-07-21 01:26:14,434 - INFO - Found stem-loop at 2169-2199 in sample_3
+2025-07-21 01:26:14,435 - INFO - Found stem-loop at 2168-2200 in sample_3
+2025-07-21 01:26:14,436 - INFO - Found stem-loop at 2167-2201 in sample_3
+2025-07-21 01:26:14,437 - INFO - Found stem-loop at 2166-2202 in sample_3
+2025-07-21 01:26:14,438 - INFO - Found stem-loop at 2166-2202 in sample_3
+2025-07-21 01:26:14,439 - INFO - Found stem-loop at 2166-2202 in sample_3
+2025-07-21 01:26:14,439 - INFO - Found stem-loop at 2167-2201 in sample_3
+2025-07-21 01:26:14,440 - INFO - Found stem-loop at 2168-2200 in sample_3
+2025-07-21 01:26:14,441 - INFO - Found stem-loop at 2169-2199 in sample_3
+2025-07-21 01:26:14,442 - INFO - Found stem-loop at 2170-2198 in sample_3
+2025-07-21 01:26:14,466 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:26:14,466 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:26:14,466 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:26:48,319 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample3.fasta, annot/sample_3.gff
+2025-07-21 01:26:48,319 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:26:48,322 - INFO - Processing record: sample_3
+2025-07-21 01:26:48,329 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:26:48,330 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:26:48,330 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:27:27,822 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample3.fasta, annot/sample_3.gff
+2025-07-21 01:27:27,823 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:27:27,825 - INFO - Processing record: sample_3
+2025-07-21 01:27:27,990 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:27:27,990 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:27:27,991 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:27:27,991 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:27:27,992 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:27:27,993 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:27:27,993 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:27:28,126 - INFO - Found stem-loop at 469-491 in sample_3
+2025-07-21 01:27:28,137 - INFO - Found stem-loop at 483-511 in sample_3
+2025-07-21 01:27:28,386 - INFO - Found stem-loop at 892-913 in sample_3
+2025-07-21 01:27:28,387 - INFO - Found stem-loop at 892-913 in sample_3
+2025-07-21 01:27:28,474 - INFO - Found stem-loop at 1012-1032 in sample_3
+2025-07-21 01:27:28,475 - INFO - Found stem-loop at 1012-1032 in sample_3
+2025-07-21 01:27:28,475 - INFO - Found stem-loop at 1012-1032 in sample_3
+2025-07-21 01:27:28,534 - INFO - Found stem-loop at 1113-1133 in sample_3
+2025-07-21 01:27:28,535 - INFO - Found stem-loop at 1113-1133 in sample_3
+2025-07-21 01:27:28,579 - INFO - Found stem-loop at 1196-1223 in sample_3
+2025-07-21 01:27:28,624 - INFO - Found stem-loop at 1274-1292 in sample_3
+2025-07-21 01:27:28,635 - INFO - Found stem-loop at 1294-1314 in sample_3
+2025-07-21 01:27:28,636 - INFO - Found stem-loop at 1294-1314 in sample_3
+2025-07-21 01:27:28,636 - INFO - Found stem-loop at 1294-1314 in sample_3
+2025-07-21 01:27:28,744 - INFO - Found stem-loop at 1471-1491 in sample_3
+2025-07-21 01:27:28,744 - INFO - Found stem-loop at 1471-1491 in sample_3
+2025-07-21 01:27:28,745 - INFO - Found stem-loop at 1471-1491 in sample_3
+2025-07-21 01:27:28,912 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:27:28,913 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:27:28,913 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:27:28,914 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:27:28,914 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:27:28,915 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:27:28,916 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:27:28,916 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:27:28,917 - INFO - Found stem-loop at 1756-1782 in sample_3
+2025-07-21 01:27:28,971 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:27:28,972 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:27:28,973 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:27:28,974 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:27:28,974 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:27:28,975 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:27:28,976 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:27:28,977 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:27:28,978 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:27:28,978 - INFO - Found stem-loop at 1852-1879 in sample_3
+2025-07-21 01:27:29,032 - INFO - Found stem-loop at 1925-1944 in sample_3
+2025-07-21 01:27:29,034 - INFO - Found stem-loop at 1925-1944 in sample_3
+2025-07-21 01:27:29,154 - INFO - Found stem-loop at 2072-2093 in sample_3
+2025-07-21 01:27:29,155 - INFO - Found stem-loop at 2072-2093 in sample_3
+2025-07-21 01:27:29,156 - INFO - Found stem-loop at 2072-2093 in sample_3
+2025-07-21 01:27:29,157 - INFO - Found stem-loop at 2072-2093 in sample_3
+2025-07-21 01:27:29,205 - INFO - Found stem-loop at 2129-2147 in sample_3
+2025-07-21 01:27:29,243 - INFO - Found stem-loop at 2170-2198 in sample_3
+2025-07-21 01:27:29,245 - INFO - Found stem-loop at 2169-2199 in sample_3
+2025-07-21 01:27:29,246 - INFO - Found stem-loop at 2168-2200 in sample_3
+2025-07-21 01:27:29,247 - INFO - Found stem-loop at 2167-2201 in sample_3
+2025-07-21 01:27:29,248 - INFO - Found stem-loop at 2166-2202 in sample_3
+2025-07-21 01:27:29,249 - INFO - Found stem-loop at 2166-2202 in sample_3
+2025-07-21 01:27:29,250 - INFO - Found stem-loop at 2166-2202 in sample_3
+2025-07-21 01:27:29,251 - INFO - Found stem-loop at 2167-2201 in sample_3
+2025-07-21 01:27:29,252 - INFO - Found stem-loop at 2168-2200 in sample_3
+2025-07-21 01:27:29,253 - INFO - Found stem-loop at 2169-2199 in sample_3
+2025-07-21 01:27:29,254 - INFO - Found stem-loop at 2170-2198 in sample_3
+2025-07-21 01:27:29,285 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:27:29,286 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:27:29,286 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:28:48,893 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample3.fasta, annot/sample_3.gff
+2025-07-21 01:28:48,893 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:28:48,896 - INFO - Processing record: sample_3
+2025-07-21 01:28:48,916 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:28:48,917 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 01:28:48,948 - INFO - Found stem-loop at 892-913 in sample_3
+2025-07-21 01:28:48,955 - INFO - Found stem-loop at 1012-1032 in sample_3
+2025-07-21 01:28:48,956 - INFO - Found stem-loop at 1012-1032 in sample_3
+2025-07-21 01:28:48,977 - INFO - Found stem-loop at 1294-1314 in sample_3
+2025-07-21 01:28:48,990 - INFO - Found stem-loop at 1471-1491 in sample_3
+2025-07-21 01:28:49,029 - INFO - Found stem-loop at 2072-2093 in sample_3
+2025-07-21 01:28:49,038 - INFO - Found stem-loop at 2129-2147 in sample_3
+2025-07-21 01:28:49,043 - INFO - Found stem-loop at 2167-2201 in sample_3
+2025-07-21 01:28:49,043 - INFO - Found stem-loop at 2166-2202 in sample_3
+2025-07-21 01:28:49,044 - INFO - Found stem-loop at 2170-2198 in sample_3
+2025-07-21 01:28:49,048 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:28:49,048 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:28:49,048 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:41:33,209 - INFO - Starting SL-Finder module with input files: sample3.fasta, sample_3b.gff
+2025-07-21 01:41:33,210 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:41:33,212 - INFO - Processing record: sample_3
+2025-07-21 01:41:33,223 - INFO - Found stem-loop at 1-29 in sample_3
+2025-07-21 01:41:33,237 - INFO - Found stem-loop at 289-313 in sample_3
+2025-07-21 01:41:33,237 - INFO - Found stem-loop at 289-313 in sample_3
+2025-07-21 01:41:33,269 - INFO - Found stem-loop at 911-932 in sample_3
+2025-07-21 01:41:33,277 - INFO - Found stem-loop at 1031-1051 in sample_3
+2025-07-21 01:41:33,277 - INFO - Found stem-loop at 1031-1051 in sample_3
+2025-07-21 01:41:33,300 - INFO - Found stem-loop at 1313-1333 in sample_3
+2025-07-21 01:41:33,314 - INFO - Found stem-loop at 1490-1510 in sample_3
+2025-07-21 01:41:33,355 - INFO - Found stem-loop at 2091-2112 in sample_3
+2025-07-21 01:41:33,364 - INFO - Found stem-loop at 2148-2166 in sample_3
+2025-07-21 01:41:33,368 - INFO - Found stem-loop at 2186-2220 in sample_3
+2025-07-21 01:41:33,369 - INFO - Found stem-loop at 2185-2221 in sample_3
+2025-07-21 01:41:33,370 - INFO - Found stem-loop at 2189-2217 in sample_3
+2025-07-21 01:41:33,372 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:41:33,372 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:41:33,372 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:41:56,553 - INFO - Starting SL-Finder module with input files: sample3.fasta, sample_3b.gff
+2025-07-21 01:41:56,553 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:41:56,556 - INFO - Processing record: sample_3
+2025-07-21 01:41:56,567 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:41:56,567 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:41:56,567 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:42:05,726 - INFO - Starting SL-Finder module with input files: sample3.fasta, sample_3b.gff
+2025-07-21 01:42:05,726 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:42:05,729 - INFO - Processing record: sample_3
+2025-07-21 01:42:05,740 - INFO - Found stem-loop at 1-29 in sample_3
+2025-07-21 01:42:05,753 - INFO - Found stem-loop at 289-313 in sample_3
+2025-07-21 01:42:05,753 - INFO - Found stem-loop at 289-313 in sample_3
+2025-07-21 01:42:05,784 - INFO - Found stem-loop at 911-932 in sample_3
+2025-07-21 01:42:05,790 - INFO - Found stem-loop at 1031-1051 in sample_3
+2025-07-21 01:42:05,791 - INFO - Found stem-loop at 1031-1051 in sample_3
+2025-07-21 01:42:05,812 - INFO - Found stem-loop at 1313-1333 in sample_3
+2025-07-21 01:42:05,825 - INFO - Found stem-loop at 1490-1510 in sample_3
+2025-07-21 01:42:05,864 - INFO - Found stem-loop at 2091-2112 in sample_3
+2025-07-21 01:42:05,874 - INFO - Found stem-loop at 2148-2166 in sample_3
+2025-07-21 01:42:05,878 - INFO - Found stem-loop at 2186-2220 in sample_3
+2025-07-21 01:42:05,879 - INFO - Found stem-loop at 2185-2221 in sample_3
+2025-07-21 01:42:05,880 - INFO - Found stem-loop at 2189-2217 in sample_3
+2025-07-21 01:42:05,882 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:42:05,882 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:42:05,882 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:42:14,750 - INFO - Starting SL-Finder module with input files: sample3.fasta, sample_3b.gff
+2025-07-21 01:42:14,750 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:42:14,753 - INFO - Processing record: sample_3
+2025-07-21 01:42:14,763 - INFO - Found stem-loop at 1-29 in sample_3
+2025-07-21 01:42:14,765 - INFO - Found stem-loop at 289-313 in sample_3
+2025-07-21 01:42:14,780 - INFO - Found stem-loop at 1031-1051 in sample_3
+2025-07-21 01:42:14,791 - INFO - Found stem-loop at 1490-1510 in sample_3
+2025-07-21 01:42:14,804 - INFO - Found stem-loop at 2148-2166 in sample_3
+2025-07-21 01:42:14,806 - INFO - Found stem-loop at 2189-2217 in sample_3
+2025-07-21 01:42:14,807 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:42:14,807 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:42:14,807 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:42:33,851 - INFO - Starting SL-Finder module with input files: sample3.fasta, sample_3b.gff
+2025-07-21 01:42:33,851 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:42:33,854 - INFO - Processing record: sample_3
+2025-07-21 01:42:33,865 - INFO - Found stem-loop at 1031-1051 in sample_3
+2025-07-21 01:42:33,871 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:42:33,871 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:42:33,871 - INFO - SL-Finder module completed successfully.
+2025-07-21 01:43:23,534 - INFO - Starting SL-Finder module with input files: sample3.fasta, sample_3b.gff
+2025-07-21 01:43:23,535 - INFO - Parsed 1 FASTA records.
+2025-07-21 01:43:23,538 - INFO - Processing record: sample_3
+2025-07-21 01:43:23,551 - INFO - Found stem-loop at 1-29 in sample_3
+2025-07-21 01:43:23,553 - INFO - Found stem-loop at 289-313 in sample_3
+2025-07-21 01:43:23,568 - INFO - Found stem-loop at 1031-1051 in sample_3
+2025-07-21 01:43:23,581 - INFO - Found stem-loop at 1490-1510 in sample_3
+2025-07-21 01:43:23,595 - INFO - Found stem-loop at 2148-2166 in sample_3
+2025-07-21 01:43:23,596 - INFO - Found stem-loop at 2189-2217 in sample_3
+2025-07-21 01:43:23,597 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 01:43:23,597 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 01:43:23,597 - INFO - SL-Finder module completed successfully.
+2025-07-21 02:26:00,357 - INFO - Starting SL-Finder module with input files: final_seqs/rotated/sample3.fasta, annot/sample_3.gff
+2025-07-21 02:26:00,357 - INFO - Parsed 1 FASTA records.
+2025-07-21 02:26:00,360 - INFO - Processing record: sample_3
+2025-07-21 02:26:00,381 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 02:26:00,382 - INFO - Found stem-loop at 270-294 in sample_3
+2025-07-21 02:26:00,413 - INFO - Found stem-loop at 892-913 in sample_3
+2025-07-21 02:26:00,421 - INFO - Found stem-loop at 1012-1032 in sample_3
+2025-07-21 02:26:00,421 - INFO - Found stem-loop at 1012-1032 in sample_3
+2025-07-21 02:26:00,443 - INFO - Found stem-loop at 1294-1314 in sample_3
+2025-07-21 02:26:00,457 - INFO - Found stem-loop at 1471-1491 in sample_3
+2025-07-21 02:26:00,495 - INFO - Found stem-loop at 2072-2093 in sample_3
+2025-07-21 02:26:00,504 - INFO - Found stem-loop at 2129-2147 in sample_3
+2025-07-21 02:26:00,507 - INFO - Found stem-loop at 2167-2201 in sample_3
+2025-07-21 02:26:00,508 - INFO - Found stem-loop at 2166-2202 in sample_3
+2025-07-21 02:26:00,509 - INFO - Found stem-loop at 2170-2198 in sample_3
+2025-07-21 02:26:00,512 - INFO - Wrote GFF annotations to stemloop/sample3.sl.gff
+2025-07-21 02:26:00,513 - INFO - Wrote CSV output to stemloop/sample3.sl.csv
+2025-07-21 02:26:00,513 - INFO - SL-Finder module completed successfully.

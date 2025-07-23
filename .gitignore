@@ -1,0 +1,8 @@
+assembly/
+old_run/
+Previous_Assembly/
+final/
+log/
+github
+*pub
+.gitignore
