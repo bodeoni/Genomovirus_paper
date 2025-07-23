@@ -5,7 +5,7 @@ import random
 # === CONFIG ===
 CSV_PATH = "Genomovirus_Proteins.csv"         # Metadata file
 FASTA_PATH = "Genomovirus_Proteins.faa"       # Full FASTA file
-OUTPUT_FASTA = "rep_subset_by_genus.faa"      # Output file
+OUTPUT_FASTA = "rep_subset_by_genus2.faa"      # Output file
 
 # === STEP 1: Load and filter metadata ===
 df = pd.read_csv(CSV_PATH)
@@ -22,14 +22,28 @@ sampled_accessions = (
 )
 sampled_set = set(sampled_accessions)
 
-# === STEP 2: Filter FASTA ===
+# Make lookup tables for country and genus
+metadata_lookup = df_filtered.set_index('Accession')[['Country', 'Genus']].to_dict(orient='index')
+
+# === STEP 2: Filter FASTA and rename headers ===
 selected_records = []
 for record in SeqIO.parse(FASTA_PATH, "fasta"):
     accession = record.id.split('|')[0].strip()
     if accession in sampled_set and 'rep' in record.description.lower():
-        selected_records.append(record)
+        if accession in metadata_lookup:
+            # Fix NaN-safe handling
+            country = metadata_lookup[accession]['Country']
+            genus = metadata_lookup[accession]['Genus']
+            country = str(country).strip().replace(" ", "_") if pd.notna(country) else "Unknown"
+            genus = str(genus).strip().replace(" ", "_") if pd.notna(genus) else "Unknown"
+            
+            new_id = f"{accession}_{country}_{genus}"
+            record.id = new_id
+            record.name = new_id
+            record.description = ""
+            selected_records.append(record)
 
 # === STEP 3: Save output ===
 SeqIO.write(selected_records, OUTPUT_FASTA, "fasta")
+print(f"✅ Saved {len(selected_records)} renamed Rep sequences to '{OUTPUT_FASTA}'")
 
-print(f"✅ Saved {len(selected_records)} Rep sequences to '{OUTPUT_FASTA}'")
