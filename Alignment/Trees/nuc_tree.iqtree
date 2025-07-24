@@ -1,0 +1,965 @@
+IQ-TREE 2.4.0 built Feb 12 2025
+
+Input file name: Alignment/Rep_Nuc_align.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 863815
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 215 sequences with 2899 nucleotide sites
+Number of constant sites: 763 (= 26.3194% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 763 (= 26.3194% of all sites)
+Number of parsimony informative sites: 1785
+Number of distinct site patterns: 2303
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.8526
+  A-G: 2.8244
+  A-T: 1.2714
+  C-G: 1.5135
+  C-T: 3.1285
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.245
+  pi(C) = 0.2396
+  pi(G) = 0.2701
+  pi(T) = 0.2453
+
+Rate matrix Q:
+
+  A    -1.054    0.3082    0.5296    0.2166
+  C    0.3152    -1.132    0.2838    0.5329
+  G    0.4805    0.2518   -0.9026    0.1703
+  T    0.2163    0.5204    0.1875   -0.9242
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.132
+
+ Category  Relative_rate  Proportion
+  1         0.1626         0.25
+  2         0.5132         0.25
+  3         1.019          0.25
+  4         2.305          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -92933.2471 (s.e. 2040.8716)
+Unconstrained log-likelihood (without tree): -21507.0047
+Number of free parameters (#branches + #model parameters): 408
+Akaike information criterion (AIC) score: 186682.4942
+Corrected Akaike information criterion (AICc) score: 186816.5280
+Bayesian information criterion (BIC) score: 189119.1197
+
+Total tree length (sum of branch lengths): 42.9035
+Sum of internal branch lengths: 18.1382 (42.2767% of tree length)
+
+WARNING: 15 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'b52_Rep' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**b52_Rep
+|
++**b54_Rep
+|
+|     +--b60_Rep
+|  +--| (99)
+|  |  +--NC_076496.1_Gemycircularvirus_Vietman
++--| (100)
+   |                                                          +--PV793856.1_Gemycircularvirus_China
+   |                                                       +--| (100)
+   |                                                       |  +--OL704838.1_Gemycircularvirus_Argentina
+   |                                                   +---| (100)
+   |                                                   |   |  +--MW562322.1_Genomoviridae_Saint_Vincent_and_the_Grenadines
+   |                                                   |   +--| (98)
+   |                                                   |      |  +**NC_035138.1_Gemycircularvirus_bemta1_Brazil
+   |                                                   |      +--| (100)
+   |                                                   |         +**KY230614.1_Gemycircularvirus_bemta1_Brazil
+   |                                                +--| (86)
+   |                                                |  |               +**OQ792008.1_Gemycircularvirus_China__Heilongjiang
+   |                                                |  |            +--| (100)
+   |                                                |  |            |  +**OQ792001.1_Genomoviridae_China__Heilongjiang
+   |                                                |  |         +--| (100)
+   |                                                |  |         |  +**OQ779169.1_Genomoviridae_China
+   |                                                |  |     +---| (100)
+   |                                                |  |     |   +--MW436633.1_Genomoviridae_Brazil
+   |                                                |  |  +--| (84)
+   |                                                |  |  |  +------MK570221.1_Genomoviridae_USA
+   |                                                |  +--| (83)
+   |                                                |     |        +**NC_076470.1_Gemycircularvirus_citas1_Tunisia
+   |                                                |     |     +--| (100)
+   |                                                |     |     |  +**MN708485.1_Gemycircularvirus_citas1_Tunisia
+   |                                                |     |  +--| (100)
+   |                                                |     |  |  +--MT766311.1_Genomoviridae_Australia
+   |                                                |     +--| (99)
+   |                                                |        +------MW436632.1_Genomoviridae_Brazil
+   |                                             +--| (88)
+   |                                             |  |             +**NC_076378.1_Gemycircularvirus_gopha1_USA
+   |                                             |  |          +--| (100)
+   |                                             |  |          |  +**MK570217.1_Gemycircularvirus_gopha1_USA
+   |                                             |  |       +--| (100)
+   |                                             |  |       |  +--MK570222.1_Genomoviridae_USA
+   |                                             |  |  +----| (100)
+   |                                             |  |  |    |  +--MK570220.1_Genomoviridae_USA
+   |                                             |  |  |    +--| (99)
+   |                                             |  |  |       +--MK570219.1_Genomoviridae_USA
+   |                                             |  +--| (75)
+   |                                             |     |     +**NC_076353.1_Gemycircularvirus_austro2_New_Zealand__Canterbury
+   |                                             |     |  +--| (100)
+   |                                             |     |  |  +**MK433239.1_Gemycircularvirus_austro2_New_Zealand__Canterbury
+   |                                             |     +--| (100)
+   |                                             |        |   +**NC_076350.1_Gemycircularvirus_austro1_New_Zealand__Canterbury
+   |                                             |        +---| (100)
+   |                                             |            +**MK433234.1_Gemycircularvirus_austro1_New_Zealand__Canterbury
+   |                                          +--| (97)
+   |                                          |  |     +--PV646690.1_Genomoviridae_China
+   |                                          |  +-----| (100)
+   |                                          |        +-----OQ779179.1_Genomoviridae_China
+   |                                       +--| (97)
+   |                                       |  |               +**NC_076406.1_Gemycircularvirus_opunt1_France
+   |                                       |  |            +--| (100)
+   |                                       |  |            |  +**MK947372.1_Gemycircularvirus_opunt1_France
+   |                                       |  |        +---| (100)
+   |                                       |  |        |   |  +--MK570218.1_Genomoviridae_USA
+   |                                       |  |        |   +--| (100)
+   |                                       |  |        |      |  +--MK570212.1_Genomoviridae_USA
+   |                                       |  |        |      +--| (100)
+   |                                       |  |        |         +--MK570204.1_Genomoviridae_USA
+   |                                       |  |     +--| (94)
+   |                                       |  |     |  |   +**NC_076376.1_Gemycircularvirus_gopha2_USA
+   |                                       |  |     |  +---| (100)
+   |                                       |  |     |      +**MK570210.1_Gemycircularvirus_gopha2_USA
+   |                                       |  |  +--| (96)
+   |                                       |  |  |  +---------MK570223.1_Genomoviridae_USA
+   |                                       |  +--| (89)
+   |                                       |     |      +**NC_076355.1_Gemycircularvirus_austro4_New_Zealand__Canterbury
+   |                                       |     +------| (100)
+   |                                       |            +**MK433241.1_Gemycircularvirus_austro4_New_Zealand__Canterbury
+   |                                    +--| (99)
+   |                                    |  |                                      +--OQ792015.1_Genomoviridae_China__Heilongjiang
+   |                                    |  |                                   +**| (78)
+   |                                    |  |                                   |  |  +**OQ792007.1_Genomoviridae_China__Heilongjiang
+   |                                    |  |                                   |  +**| (85)
+   |                                    |  |                                   |     +**OQ792005.1_Genomoviridae_China__Heilongjiang
+   |                                    |  |                                +--| (66)
+   |                                    |  |                                |  +**OQ779175.1_Genomoviridae_China
+   |                                    |  |                             +--| (96)
+   |                                    |  |                             |  +--OQ835317.1_Genomoviridae_China
+   |                                    |  |                          +--| (100)
+   |                                    |  |                          |  +--OQ779180.1_Genomoviridae_China
+   |                                    |  |                       +--| (99)
+   |                                    |  |                       |  +--OL704840.1_Gemycircularvirus_Argentina
+   |                                    |  |                    +--| (99)
+   |                                    |  |                    |  +--MK483083.1_Genomoviridae_Brazil
+   |                                    |  |                 +--| (100)
+   |                                    |  |                 |  |  +--MT214094.1_Genomoviridae_Brazil__Leopoldo_de_Bulhoes__GO
+   |                                    |  |                 |  +--| (100)
+   |                                    |  |                 |     +--MK483081.1_Genomoviridae_Brazil
+   |                                    |  |              +--| (100)
+   |                                    |  |              |  |  +**NC_076358.1_Gemycircularvirus_hydro1_Brazil
+   |                                    |  |              |  +--| (100)
+   |                                    |  |              |     +**MK483072.1_Gemycircularvirus_hydro1_Brazil
+   |                                    |  |           +--| (100)
+   |                                    |  |           |  +--OQ633436.1_Genomoviridae_Unknown
+   |                                    |  |        +--| (100)
+   |                                    |  |        |  |     +--OQ779178.1_Genomoviridae_China
+   |                                    |  |        |  |  +--| (100)
+   |                                    |  |        |  |  |  +--MW828677.1_Genomoviridae_Germany
+   |                                    |  |        |  +--| (100)
+   |                                    |  |        |     |  +**NC_076351.1_Gemycircularvirus_austro3_New_Zealand__Canterbury
+   |                                    |  |        |     +--| (100)
+   |                                    |  |        |        +**MK433236.1_Gemycircularvirus_austro3_New_Zealand__Canterbury
+   |                                    |  |     +--| (91)
+   |                                    |  |     |  |  +-----OL704839.1_Gemycircularvirus_Argentina
+   |                                    |  |     |  +--| (87)
+   |                                    |  |     |     +----MK433238.1_Genomoviridae_New_Zealand__Canterbury
+   |                                    |  |  +--| (99)
+   |                                    |  |  |  |           +**NC_075323.1_Gemycircularvirus_Hungary
+   |                                    |  |  |  |        +--| (100)
+   |                                    |  |  |  |        |  +**KY302866.1_Gemycircularvirus_Hungary
+   |                                    |  |  |  |     +--| (100)
+   |                                    |  |  |  |     |  +--KY302867.1_Gemycircularvirus_Hungary
+   |                                    |  |  |  +-----| (100)
+   |                                    |  |  |        +--OL704844.1_Gemycircularvirus_Argentina
+   |                                    |  +--| (95)
+   |                                    |     |        +**MW347486.1_Genomoviridae_China__Yangtze_River
+   |                                    |     +--------| (100)
+   |                                    |              |  +**NC_040379.1_Gemycircularvirus_China
+   |                                    |              +--| (100)
+   |                                    |                 +**KY312557.1_Gemycircularvirus_China
+   |                                 +--| (71)
+   |                                 |  |             +**MK433242.1_Gemycircularvirus_austro6_New_Zealand__Canterbury
+   |                                 |  |        +----| (100)
+   |                                 |  |        |    +**NC_076356.1_Genomoviridae_New_Zealand__Canterbury
+   |                                 |  |  +-----| (100)
+   |                                 |  |  |     |      +**NC_038481.1_Gemycircularvirus_mosqi1_USA__San_Diego
+   |                                 |  |  |     +------| (100)
+   |                                 |  |  |            +**HQ335086.1_Gemycircularvirus_mosqi1_USA__San_Diego
+   |                                 |  +--| (71)
+   |                                 |     |        +**NC_076352.1_Gemycircularvirus_austro5_New_Zealand__Canterbury
+   |                                 |     |  +-----| (100)
+   |                                 |     |  |     +**MK433237.1_Gemycircularvirus_austro5_New_Zealand__Canterbury
+   |                                 |     +--| (100)
+   |                                 |        +----MK433235.1_Genomoviridae_New_Zealand__Canterbury
+   |                              +--| (53)
+   |                              |  |                         +-----------MH782431.1_Genomoviridae_China
+   |                              |  +-------------------------| (100)
+   |                              |                            +---------MH782430.1_Genomoviridae_China
+   |                           +--| (63)
+   |                           |  |                       +--PV329706.1_Gemykibivirus_Unknown
+   |                           |  |                 +-----| (100)
+   |                           |  |                 |     +--MK513443.1_Gemykibivirus_humas2_Brazil
+   |                           |  |              +--| (100)
+   |                           |  |              |  |           +--OQ792011.1_Genomoviridae_China__Heilongjiang
+   |                           |  |              |  |      +----| (100)
+   |                           |  |              |  |      |    +--MW601956.1_Genomoviridae_Brazil
+   |                           |  |              |  |  +---| (100)
+   |                           |  |              |  |  |   |  +--OK148623.1_Genomoviridae_Unknown
+   |                           |  |              |  |  |   +--| (100)
+   |                           |  |              |  |  |      +--OK148621.1_Genomoviridae_Unknown
+   |                           |  |              |  +--| (72)
+   |                           |  |              |     |    +**NC_024689.1_Gemykibivirus_bovas1_Germany
+   |                           |  |              |     +----| (100)
+   |                           |  |              |          +**LK931483.1_Gemykibivirus_bovas1_Germany
+   |                           |  |           +--| (90)
+   |                           |  |           |  +--------MW347513.1_Genomoviridae_China__Yangtze_River
+   |                           |  |        +--| (22)
+   |                           |  |        |  |                           +**OQ792017.1_Genomoviridae_China__Heilongjiang
+   |                           |  |        |  |                        +**| (80)
+   |                           |  |        |  |                        |  +**OQ792009.1_Genomoviridae_China__Heilongjiang
+   |                           |  |        |  |                    +---| (100)
+   |                           |  |        |  |                    |   |  +**OQ835323.1_Genomoviridae_China
+   |                           |  |        |  |                    |   +**| (49)
+   |                           |  |        |  |                    |      +**OQ835319.1_Genomoviridae_China
+   |                           |  |        |  |                 +--| (94)
+   |                           |  |        |  |                 |  +--MK947375.1_Genomoviridae_USA
+   |                           |  |        |  |              +--| (99)
+   |                           |  |        |  |              |  |                       +--MK947374.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |                    +--| (100)
+   |                           |  |        |  |              |  |                    |  |  +--MK570203.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |                    |  +--| (100)
+   |                           |  |        |  |              |  |                    |     +--MK570201.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |                 +--| (100)
+   |                           |  |        |  |              |  |                 |  +--MK570206.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |              +--| (100)
+   |                           |  |        |  |              |  |              |  |  +--MK570208.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |              |  +--| (100)
+   |                           |  |        |  |              |  |              |     +--MK570207.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |           +--| (100)
+   |                           |  |        |  |              |  |           |  |     +--MH973740.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |           |  |  +--| (100)
+   |                           |  |        |  |              |  |           |  |  |  +--MH973738.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |           |  +--| (100)
+   |                           |  |        |  |              |  |           |     |  +--MH973739.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |           |     +--| (99)
+   |                           |  |        |  |              |  |           |        +--MH973737.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |        +--| (100)
+   |                           |  |        |  |              |  |        |  +--MK570216.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |     +--| (99)
+   |                           |  |        |  |              |  |     |  |  +--MK570211.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |     |  +--| (98)
+   |                           |  |        |  |              |  |     |     +--MK570205.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |  +--| (100)
+   |                           |  |        |  |              |  |  |  |     +--MK570215.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |  |  |  +--| (99)
+   |                           |  |        |  |              |  |  |  |  |  +**MK570214.1_Genomoviridae_USA
+   |                           |  |        |  |              |  |  |  +--| (100)
+   |                           |  |        |  |              |  |  |     +--MK570202.1_Genomoviridae_USA
+   |                           |  |        |  |              |  +--| (100)
+   |                           |  |        |  |              |     |  +**NC_030448.1_Gemykibivirus_humas5_France
+   |                           |  |        |  |              |     +--| (100)
+   |                           |  |        |  |              |        +**KU343137.1_Gemykibivirus_humas5_France
+   |                           |  |        |  |           +--| (76)
+   |                           |  |        |  |           |  |     +**NC_076366.1_Gemykibivirus_hydro3_Brazil
+   |                           |  |        |  |           |  |  +--| (100)
+   |                           |  |        |  |           |  |  |  +**MK483084.1_Gemykibivirus_hydro3_Brazil
+   |                           |  |        |  |           |  +--| (100)
+   |                           |  |        |  |           |     +--MT766310.1_Genomoviridae_Australia
+   |                           |  |        |  |        +--| (100)
+   |                           |  |        |  |        |  |              +**NC_076361.1_Gemykibivirus_hydro1_Brazil
+   |                           |  |        |  |        |  |           +--| (100)
+   |                           |  |        |  |        |  |           |  +**MK483076.1_Gemykibivirus_hydro1_Brazil
+   |                           |  |        |  |        |  |        +--| (100)
+   |                           |  |        |  |        |  |        |  |  +**NC_035139.1_Gemykibivirus_bemta1_Brazil
+   |                           |  |        |  |        |  |        |  +--| (100)
+   |                           |  |        |  |        |  |        |     +**KY230625.1_Gemykibivirus_bemta1_Brazil
+   |                           |  |        |  |        |  |     +--| (100)
+   |                           |  |        |  |        |  |     |  +--MW562318.1_Genomoviridae_Saint_Vincent_and_the_Grenadines
+   |                           |  |        |  |        |  |  +--| (98)
+   |                           |  |        |  |        |  |  |  |     +**NC_076359.1_Gemykibivirus_hydro2_Brazil
+   |                           |  |        |  |        |  |  |  |  +--| (100)
+   |                           |  |        |  |        |  |  |  |  |  +**MK483073.1_Gemykibivirus_hydro2_Brazil
+   |                           |  |        |  |        |  |  |  +--| (100)
+   |                           |  |        |  |        |  |  |     +--MK483074.1_Gemykibivirus_hydro2_Brazil
+   |                           |  |        |  |        |  +--| (77)
+   |                           |  |        |  |        |     +---MW347503.1_Genomoviridae_China__Yangtze_River
+   |                           |  |        |  |     +--| (38)
+   |                           |  |        |  |     |  |     +**NC_076408.1_Gemykibivirus_planta2_USA
+   |                           |  |        |  |     |  +-----| (100)
+   |                           |  |        |  |     |        +**MK947376.1_Gemykibivirus_planta2_USA
+   |                           |  |        |  |  +--| (77)
+   |                           |  |        |  |  |  +-------OL704847.1_Gemykibivirus_Argentina
+   |                           |  |        |  +--| (32)
+   |                           |  |        |     |  +---OL704846.1_Gemykibivirus_Argentina
+   |                           |  |        |     +--| (100)
+   |                           |  |        |        |  +--OL704842.1_Gemykibivirus_Argentina
+   |                           |  |        |        +--| (100)
+   |                           |  |        |           +--OL704841.1_Gemykibivirus_Argentina
+   |                           |  |     +--| (38)
+   |                           |  |     |  |     +--OL704843.1_Gemykibivirus_Argentina
+   |                           |  |     |  |  +--| (100)
+   |                           |  |     |  |  |  +--OL704837.1_Gemykibivirus_Argentina
+   |                           |  |     |  +--| (90)
+   |                           |  |     |     |         +--MK513442.1_Gemykibivirus_humas1_Brazil
+   |                           |  |     |     |      +--| (100)
+   |                           |  |     |     |      |  |  +**NC_030447.1_Gemycircularvirus_France
+   |                           |  |     |     |      |  +**| (70)
+   |                           |  |     |     |      |     +**KU343136.1_Gemycircularvirus_France
+   |                           |  |     |     |   +--| (92)
+   |                           |  |     |     |   |  |  +--KP974694.1_Gemykibivirus_humas1_Germany
+   |                           |  |     |     |   |  +--| (100)
+   |                           |  |     |     |   |     |  +**NC_024691.1_Gemykibivirus_humas1_Germany
+   |                           |  |     |     |   |     +--| (100)
+   |                           |  |     |     |   |        +**LK931485.1_Gemykibivirus_humas1_Germany
+   |                           |  |     |     +---| (100)
+   |                           |  |     |         +--MK483079.1_Genomoviridae_Brazil
+   |                           |  |  +--| (36)
+   |                           |  |  |  |        +**NC_076407.1_Gemygorvirus_opunt1_France
+   |                           |  |  |  |     +--| (100)
+   |                           |  |  |  |     |  +**MK947373.1_Gemygorvirus_opunt1_France
+   |                           |  |  |  |  +--| (100)
+   |                           |  |  |  |  |  |  +**NC_076363.1_Gemygorvirus_hydro1_Brazil
+   |                           |  |  |  |  |  +--| (100)
+   |                           |  |  |  |  |     +**MK483078.1_Gemygorvirus_hydro1_Brazil
+   |                           |  |  |  +--| (100)
+   |                           |  |  |     +---OL704845.1_Gemygorvirus_Argentina
+   |                           |  +--| (93)
+   |                           |     |         +**NC_076354.1_Gemyduguivirus_austo1_New_Zealand__Canterbury
+   |                           |     +---------| (100)
+   |                           |               +**MK433240.1_Gemyduguivirus_austo1_New_Zealand__Canterbury
+   |                        +--| (60)
+   |                        |  |                +**NC_076364.1_Gemyduguivirus_hydro2_Brazil
+   |                        |  |             +--| (100)
+   |                        |  |             |  +**MK483080.1_Gemyduguivirus_hydro2_Brazil
+   |                        |  |          +--| (100)
+   |                        |  |          |  +--MK483085.1_Genomoviridae_Brazil
+   |                        |  |       +--| (100)
+   |                        |  |       |  |  +**NC_076360.1_Gemyduguivirus_hydro1_Brazil
+   |                        |  |       |  +--| (100)
+   |                        |  |       |     +**MK483075.1_Gemyduguivirus_hydro1_Brazil
+   |                        |  |  +----| (100)
+   |                        |  |  |    |        +**NC_076362.1_Gemyduguivirus_hydro3_Brazil
+   |                        |  |  |    |     +--| (100)
+   |                        |  |  |    |     |  +**MK483077.1_Gemyduguivirus_hydro3_Brazil
+   |                        |  |  |    |  +--| (100)
+   |                        |  |  |    |  |  |  +**NC_035137.1_Gemyduguivirus_bemta1_Brazil
+   |                        |  |  |    |  |  +--| (100)
+   |                        |  |  |    |  |     +**KY230613.1_Gemyduguivirus_bemta1_Brazil
+   |                        |  |  |    +--| (92)
+   |                        |  |  |       |   +**NC_075325.1_Gemycircularvirus_China
+   |                        |  |  |       +---| (100)
+   |                        |  |  |           +**KY312558.1_Gemycircularvirus_China
+   |                        |  +--| (86)
+   |                        |     +---------------------MH782432.1_Gemycircularvirus_China
+   |                     +--| (39)
+   |                     |  |     +----MW562320.1_Genomoviridae_Saint_Vincent_and_the_Grenadines
+   |                     |  |  +--| (100)
+   |                     |  |  |  |           +--MW347512.1_Genomoviridae_China__Yangtze_River
+   |                     |  |  |  |      +----| (100)
+   |                     |  |  |  |      |    |  +**NC_028459.1_Gemyvongvirus_humas1_Germany
+   |                     |  |  |  |      |    +--| (100)
+   |                     |  |  |  |      |       +**KP974693.1_Gemyvongvirus_humas1_Germany
+   |                     |  |  |  +------| (100)
+   |                     |  |  |         |     +--MW347506.1_Genomoviridae_China__Yangtze_River
+   |                     |  |  |         +-----| (100)
+   |                     |  |  |               +--MW346696.1_Genomoviridae_China__Yangtze_River
+   |                     |  +--| (46)
+   |                     |     |  +--------------------------MK922280.1_Genomoviridae_Brazil
+   |                     |     +--| (50)
+   |                     |        +------------MK922279.1_Genomoviridae_Brazil
+   |                  +--| (62)
+   |                  |  +-----------------Geminivirus_Rep_ACMV
+   |               +--| (69)
+   |               |  |   +------OQ792006.1_Gemycircularvirus_China__Heilongjiang
+   |               |  +---| (100)
+   |               |      |     +---OQ792004.1_Genomoviridae_China__Heilongjiang
+   |               |      |  +--| (74)
+   |               |      |  |  |        +**NC_076469.1_Gemykolovirus_citas1_Tunisia
+   |               |      |  |  |     +--| (100)
+   |               |      |  |  |     |  +**MN708482.1_Gemykolovirus_citas1_Tunisia
+   |               |      |  |  |  +--| (100)
+   |               |      |  |  |  |  |  +**MN708484.1_Citrus_Tunisia_genomovirus_1_Tunisia
+   |               |      |  |  |  |  +**| (92)
+   |               |      |  |  |  |     +--MN708483.1_Citrus_Tunisia_genomovirus_1_Tunisia
+   |               |      |  |  +--| (99)
+   |               |      |  |     |  +**NC_076375.1_Gemykolovirus_gopha1_USA
+   |               |      |  |     +--| (100)
+   |               |      |  |        +**MK570209.1_Gemykolovirus_gopha1_USA
+   |               |      +--| (100)
+   |               |         |   +**NC_076377.1_Gemykolovirus_gopha2_USA
+   |               |         +---| (100)
+   |               |             +**MK570213.1_Gemykolovirus_gopha2_USA
+   |            +--| (100)
+   |            |  |             +**NC_076365.1_Gemykroznavirus_hydro1_Brazil
+   |            |  +-------------| (100)
+   |            |                +**MK483082.1_Gemykroznavirus_hydro1_Brazil
+   |         +--| (99)
+   |         |  |            +**OQ792016.1_Genomoviridae_China__Heilongjiang
+   |         |  |         +--| (100)
+   |         |  |         |  +**OQ792003.1_Genomoviridae_China__Heilongjiang
+   |         |  |  +------| (100)
+   |         |  |  |      |  +**OQ835320.1_Genomoviridae_China
+   |         |  |  |      +**| (87)
+   |         |  |  |         +**OQ779174.1_Genomoviridae_China
+   |         |  +--| (100)
+   |         |     |                    +**OQ792014.1_Genomoviridae_China__Heilongjiang
+   |         |     |                 +**| (18)
+   |         |     |                 |  |        +**OQ792013.1_Genomoviridae_China__Heilongjiang
+   |         |     |                 |  |     +--| (89)
+   |         |     |                 |  |     |  +--OQ792012.1_Genomoviridae_China__Heilongjiang
+   |         |     |                 |  |  +--| (87)
+   |         |     |                 |  |  |  |             +**OQ792010.1_Genomoviridae_China__Heilongjiang
+   |         |     |                 |  |  |  |          +**| (99)
+   |         |     |                 |  |  |  |          |  |  +**OQ835325.1_Genomoviridae_China
+   |         |     |                 |  |  |  |          |  +--| (100)
+   |         |     |                 |  |  |  |          |     +**OQ835324.1_Genomoviridae_China
+   |         |     |                 |  |  |  |       +--| (100)
+   |         |     |                 |  |  |  |       |  +**OQ835327.1_Genomoviridae_China
+   |         |     |                 |  |  |  |  +----| (100)
+   |         |     |                 |  |  |  |  |    +--OQ779177.1_Genomoviridae_China
+   |         |     |                 |  |  |  +--| (94)
+   |         |     |                 |  |  |     +--MW601957.1_Genomoviridae_Brazil
+   |         |     |                 |  +**| (23)
+   |         |     |                 |     +**OQ835322.1_Genomoviridae_China
+   |         |     |              +**| (19)
+   |         |     |              |  +**OQ835332.1_Genomoviridae_China
+   |         |     |           +--| (85)
+   |         |     |           |  +**OQ835318.1_Genomoviridae_China
+   |         |     |        +--| (94)
+   |         |     |        |  |           +--OK148622.1_Genomoviridae_Unknown
+   |         |     |        |  |        +**| (27)
+   |         |     |        |  |        |  +--OK148618.1_Genomoviridae_Unknown
+   |         |     |        |  |     +**| (11)
+   |         |     |        |  |     |  |  +--OK148620.1_Genomoviridae_Unknown
+   |         |     |        |  |     |  +**| (13)
+   |         |     |        |  |     |     +--OK148619.1_Genomoviridae_Unknown
+   |         |     |        |  |  +**| (20)
+   |         |     |        |  |  |  +--OK148616.1_Genomoviridae_Unknown
+   |         |     |        |  +--| (99)
+   |         |     |        |     +--OK148617.1_Genomoviridae_Unknown
+   |         |     |     +--| (94)
+   |         |     |     |  +--MW601958.1_Genomoviridae_Brazil
+   |         |     +-----| (100)
+   |         |           |  +--OK148624.1_Genomoviridae_Unknown
+   |         |           +--| (100)
+   |         |              |  +**NC_024690.1_Gemykrogvirus_bovas1_Germany
+   |         |              +--| (100)
+   |         |                 +**LK931484.1_Gemykrogvirus_bovas1_Germany
+   +---------| (100)
+             |       +**NC_076287.1_Gemykrogvirus_apime1_USA
+             +-------| (100)
+                     +**MH973741.1_Gemykrogvirus_apime1_USA
+
+Tree in newick format:
+
+(b52_Rep:0.0000010000,b54_Rep:0.0000020953,((b60_Rep:0.0597945992,NC_076496.1_Gemycircularvirus_Vietman:0.0205561146)99:0.0076640353,(((((((((((((((((PV793856.1_Gemycircularvirus_China:0.0680907305,OL704838.1_Gemycircularvirus_Argentina:0.1134235843)100:0.0562665866,(MW562322.1_Genomoviridae_Saint_Vincent_and_the_Grenadines:0.1082530198,(NC_035138.1_Gemycircularvirus_bemta1_Brazil:0.0000010000,KY230614.1_Gemycircularvirus_bemta1_Brazil:0.0000010000)100:0.1498187203)98:0.0324288435)100:0.2744601428,(((((OQ792008.1_Gemycircularvirus_China__Heilongjiang:0.0000010000,OQ792001.1_Genomoviridae_China__Heilongjiang:0.0000010000)100:0.0046316106,OQ779169.1_Genomoviridae_China:0.0000021118)100:0.1061960398,MW436633.1_Genomoviridae_Brazil:0.0374971042)100:0.2683496456,MK570221.1_Genomoviridae_USA:0.4505048478)84:0.0685177660,(((NC_076470.1_Gemycircularvirus_citas1_Tunisia:0.0000010000,MN708485.1_Gemycircularvirus_citas1_Tunisia:0.0000010000)100:0.1187962184,MT766311.1_Genomoviridae_Australia:0.1126422271)100:0.2052213722,MW436632.1_Genomoviridae_Brazil:0.4596719881)99:0.0431963389)83:0.0341689427)86:0.0452518715,((((NC_076378.1_Gemycircularvirus_gopha1_USA:0.0000010000,MK570217.1_Gemycircularvirus_gopha1_USA:0.0000022262)100:0.0206623645,MK570222.1_Genomoviridae_USA:0.0087519030)100:0.0442973490,(MK570220.1_Genomoviridae_USA:0.0047663050,MK570219.1_Genomoviridae_USA:0.0045800618)99:0.0195457239)100:0.3706214037,((NC_076353.1_Gemycircularvirus_austro2_New_Zealand__Canterbury:0.0000010000,MK433239.1_Gemycircularvirus_austro2_New_Zealand__Canterbury:0.0000010000)100:0.1803871274,(NC_076350.1_Gemycircularvirus_austro1_New_Zealand__Canterbury:0.0000010000,MK433234.1_Gemycircularvirus_austro1_New_Zealand__Canterbury:0.0000010000)100:0.2784710916)100:0.0950701730)75:0.0527197723)88:0.0371744872,(PV646690.1_Genomoviridae_China:0.1582801513,OQ779179.1_Genomoviridae_China:0.4051407069)100:0.3942984931)97:0.0618167117,(((((NC_076406.1_Gemycircularvirus_opunt1_France:0.0000010000,MK947372.1_Gemycircularvirus_opunt1_France:0.0000010000)100:0.1210538027,(MK570218.1_Genomoviridae_USA:0.0820721647,(MK570212.1_Genomoviridae_USA:0.0171289061,MK570204.1_Genomoviridae_USA:0.0404898459)100:0.0440861946)100:0.0416353464)100:0.2855450983,(NC_076376.1_Gemycircularvirus_gopha2_USA:0.0000010000,MK570210.1_Gemycircularvirus_gopha2_USA:0.0000010000)100:0.2899844484)94:0.0483699599,MK570223.1_Genomoviridae_USA:0.6469514658)96:0.0467611339,(NC_076355.1_Gemycircularvirus_austro4_New_Zealand__Canterbury:0.0000010000,MK433241.1_Gemycircularvirus_austro4_New_Zealand__Canterbury:0.0000010000)100:0.4522887617)89:0.0465798691)97:0.0791936181,(((((((((((((OQ792015.1_Genomoviridae_China__Heilongjiang:0.0030911520,(OQ792007.1_Genomoviridae_China__Heilongjiang:0.0000010000,OQ792005.1_Genomoviridae_China__Heilongjiang:0.0000010000)85:0.0000020768)78:0.0000022624,OQ779175.1_Genomoviridae_China:0.0000010000)66:0.0020712776,OQ835317.1_Genomoviridae_China:0.0041311935)96:0.0074105998,OQ779180.1_Genomoviridae_China:0.0039901705)100:0.0364907209,OL704840.1_Gemycircularvirus_Argentina:0.1085273261)99:0.0817470094,MK483083.1_Genomoviridae_Brazil:0.0360146231)99:0.0264462103,(MT214094.1_Genomoviridae_Brazil__Leopoldo_de_Bulhoes__GO:0.0280802700,MK483081.1_Genomoviridae_Brazil:0.0451681714)100:0.0257471548)100:0.0984351150,(NC_076358.1_Gemycircularvirus_hydro1_Brazil:0.0000010000,MK483072.1_Gemycircularvirus_hydro1_Brazil:0.0000010000)100:0.1641129725)100:0.1006207342,OQ633436.1_Genomoviridae_Unknown:0.1718489033)100:0.1083946827,((OQ779178.1_Genomoviridae_China:0.1430259682,MW828677.1_Genomoviridae_Germany:0.0702948929)100:0.0509685697,(NC_076351.1_Gemycircularvirus_austro3_New_Zealand__Canterbury:0.0000010000,MK433236.1_Gemycircularvirus_austro3_New_Zealand__Canterbury:0.0000010000)100:0.1082216381)100:0.1250132458)100:0.1088189185,(OL704839.1_Gemycircularvirus_Argentina:0.4135974150,MK433238.1_Genomoviridae_New_Zealand__Canterbury:0.3521242317)87:0.0395014133)91:0.0778409803,(((NC_075323.1_Gemycircularvirus_Hungary:0.0000010000,KY302866.1_Gemycircularvirus_Hungary:0.0000010000)100:0.0040276931,KY302867.1_Gemycircularvirus_Hungary:0.0005093710)100:0.2042518016,OL704844.1_Gemycircularvirus_Argentina:0.1701171662)100:0.4245119446)99:0.0818914370,(MW347486.1_Genomoviridae_China__Yangtze_River:0.0000026084,(NC_040379.1_Gemycircularvirus_China:0.0000010000,KY312557.1_Gemycircularvirus_China:0.0000010000)100:0.0029260089)100:0.6080834903)95:0.0718741741)99:0.0517486408,(((MK433242.1_Gemycircularvirus_austro6_New_Zealand__Canterbury:0.0000020636,NC_076356.1_Genomoviridae_New_Zealand__Canterbury:0.0000010000)100:0.3580248138,(NC_038481.1_Gemycircularvirus_mosqi1_USA__San_Diego:0.0000021679,HQ335086.1_Gemycircularvirus_mosqi1_USA__San_Diego:0.0000023297)100:0.4676989098)100:0.3928500990,((NC_076352.1_Gemycircularvirus_austro5_New_Zealand__Canterbury:0.0000010000,MK433237.1_Gemycircularvirus_austro5_New_Zealand__Canterbury:0.0000010000)100:0.3908624334,MK433235.1_Genomoviridae_New_Zealand__Canterbury:0.3381427558)100:0.1545656549)71:0.0622777221)71:0.0698220833,(MH782431.1_Genomoviridae_China:0.8207964388,MH782430.1_Genomoviridae_China:0.6809006507)100:1.6581734130)53:0.0063208296,(((((((PV329706.1_Gemykibivirus_Unknown:0.0035753567,MK513443.1_Gemykibivirus_humas2_Brazil:0.0069373665)100:0.4207421725,(((OQ792011.1_Genomoviridae_China__Heilongjiang:0.0084139260,MW601956.1_Genomoviridae_Brazil:0.0044563036)100:0.3263942303,(OK148623.1_Genomoviridae_Unknown:0.0018168800,OK148621.1_Genomoviridae_Unknown:0.0030316616)100:0.1813590865)100:0.2998977575,(NC_024689.1_Gemykibivirus_bovas1_Germany:0.0000026117,LK931483.1_Gemykibivirus_bovas1_Germany:0.0000025134)100:0.3405225011)72:0.0791017518)100:0.0711123974,MW347513.1_Genomoviridae_China__Yangtze_River:0.6019293889)90:0.1188244939,(((((((((OQ792017.1_Genomoviridae_China__Heilongjiang:0.0000010000,OQ792009.1_Genomoviridae_China__Heilongjiang:0.0000010000)80:0.0000010000,(OQ835323.1_Genomoviridae_China:0.0000010000,OQ835319.1_Genomoviridae_China:0.0000010000)49:0.0000010000)100:0.2956303931,MK947375.1_Genomoviridae_USA:0.2176651316)94:0.0571631911,((((((((MK947374.1_Genomoviridae_USA:0.0313470221,(MK570203.1_Genomoviridae_USA:0.0116201678,MK570201.1_Genomoviridae_USA:0.0085598738)100:0.0353885585)100:0.0188421063,MK570206.1_Genomoviridae_USA:0.0137476756)100:0.0130833362,(MK570208.1_Genomoviridae_USA:0.0152040350,MK570207.1_Genomoviridae_USA:0.0135430192)100:0.0244382134)100:0.0217453902,((MH973740.1_Genomoviridae_USA:0.0019442552,MH973738.1_Genomoviridae_USA:0.0018927382)100:0.0068412542,(MH973739.1_Genomoviridae_USA:0.0009511495,MH973737.1_Genomoviridae_USA:0.0018988196)99:0.0008017181)100:0.0286457590)100:0.0384576134,MK570216.1_Genomoviridae_USA:0.0202216665)100:0.0249151592,(MK570211.1_Genomoviridae_USA:0.0529775628,MK570205.1_Genomoviridae_USA:0.0007080479)98:0.0323604452)99:0.0676113095,((MK570215.1_Genomoviridae_USA:0.0054675697,MK570214.1_Genomoviridae_USA:0.0000025657)99:0.0019908688,MK570202.1_Genomoviridae_USA:0.0044039339)100:0.1237189067)100:0.0774910104,(NC_030448.1_Gemykibivirus_humas5_France:0.0000010000,KU343137.1_Gemykibivirus_humas5_France:0.0000010000)100:0.2240351380)100:0.0482776316)99:0.0578060937,((NC_076366.1_Gemykibivirus_hydro3_Brazil:0.0000022630,MK483084.1_Gemykibivirus_hydro3_Brazil:0.0000028994)100:0.2265695003,MT766310.1_Genomoviridae_Australia:0.1213279794)100:0.1703925081)76:0.0269133336,(((((NC_076361.1_Gemykibivirus_hydro1_Brazil:0.0000010000,MK483076.1_Gemykibivirus_hydro1_Brazil:0.0000010000)100:0.0924471865,(NC_035139.1_Gemykibivirus_bemta1_Brazil:0.0000010000,KY230625.1_Gemykibivirus_bemta1_Brazil:0.0000010000)100:0.0870662823)100:0.0720622164,MW562318.1_Genomoviridae_Saint_Vincent_and_the_Grenadines:0.0471289003)100:0.0978072606,((NC_076359.1_Gemykibivirus_hydro2_Brazil:0.0000010000,MK483073.1_Gemykibivirus_hydro2_Brazil:0.0000010000)100:0.0030263615,MK483074.1_Gemykibivirus_hydro2_Brazil:0.0052709493)100:0.1646476619)98:0.0710843156,MW347503.1_Genomoviridae_China__Yangtze_River:0.2938240055)77:0.0424710501)100:0.1546845408,(NC_076408.1_Gemykibivirus_planta2_USA:0.0000023261,MK947376.1_Gemykibivirus_planta2_USA:0.0000028485)100:0.4117419472)38:0.0287060668,OL704847.1_Gemykibivirus_Argentina:0.5404097903)77:0.0339276405,(OL704846.1_Gemykibivirus_Argentina:0.3013692824,(OL704842.1_Gemykibivirus_Argentina:0.1191896252,OL704841.1_Gemykibivirus_Argentina:0.1608061732)100:0.0761850982)100:0.1758201972)32:0.0315965097)22:0.0195277462,((OL704843.1_Gemykibivirus_Argentina:0.2066635230,OL704837.1_Gemykibivirus_Argentina:0.2025362734)100:0.2263797019,(((MK513442.1_Gemykibivirus_humas1_Brazil:0.0012978497,(NC_030447.1_Gemycircularvirus_France:0.0000010000,KU343136.1_Gemycircularvirus_France:0.0000010000)70:0.0000022219)100:0.0847302438,(KP974694.1_Gemykibivirus_humas1_Germany:0.0405070484,(NC_024691.1_Gemykibivirus_humas1_Germany:0.0000010000,LK931485.1_Gemykibivirus_humas1_Germany:0.0000010000)100:0.0519604983)100:0.0429176102)92:0.0206247244,MK483079.1_Genomoviridae_Brazil:0.0638202999)100:0.3127556761)90:0.0934640881)38:0.0354692894,(((NC_076407.1_Gemygorvirus_opunt1_France:0.0000023757,MK947373.1_Gemygorvirus_opunt1_France:0.0000010000)100:0.1297663594,(NC_076363.1_Gemygorvirus_hydro1_Brazil:0.0000021894,MK483078.1_Gemygorvirus_hydro1_Brazil:0.0000010000)100:0.1411892551)100:0.1482558289,OL704845.1_Gemygorvirus_Argentina:0.2884715048)100:0.2202642835)36:0.0177858818,(NC_076354.1_Gemyduguivirus_austo1_New_Zealand__Canterbury:0.0000010000,MK433240.1_Gemyduguivirus_austo1_New_Zealand__Canterbury:0.0000010000)100:0.6681018011)93:0.0740621366)63:0.0683635467,(((((NC_076364.1_Gemyduguivirus_hydro2_Brazil:0.0000010000,MK483080.1_Gemyduguivirus_hydro2_Brazil:0.0000010000)100:0.0385483248,MK483085.1_Genomoviridae_Brazil:0.0483988749)100:0.1296849916,(NC_076360.1_Gemyduguivirus_hydro1_Brazil:0.0000023991,MK483075.1_Gemyduguivirus_hydro1_Brazil:0.0000025008)100:0.1170305857)100:0.0584508136,(((NC_076362.1_Gemyduguivirus_hydro3_Brazil:0.0000010000,MK483077.1_Gemyduguivirus_hydro3_Brazil:0.0000010000)100:0.1192298803,(NC_035137.1_Gemyduguivirus_bemta1_Brazil:0.0000010000,KY230613.1_Gemyduguivirus_bemta1_Brazil:0.0000010000)100:0.1251454212)100:0.1203623541,(NC_075325.1_Gemycircularvirus_China:0.0000010000,KY312558.1_Gemycircularvirus_China:0.0000010000)100:0.2739923170)92:0.0332670505)100:0.3406142004,MH782432.1_Gemycircularvirus_China:1.4245183678)86:0.1625322947)60:0.0786605573,((MW562320.1_Genomoviridae_Saint_Vincent_and_the_Grenadines:0.3696758328,((MW347512.1_Genomoviridae_China__Yangtze_River:0.0049451070,(NC_028459.1_Gemyvongvirus_humas1_Germany:0.0000010000,KP974693.1_Gemyvongvirus_humas1_Germany:0.0000010000)100:0.0116948314)100:0.3537758749,(MW347506.1_Genomoviridae_China__Yangtze_River:0.0981497110,MW346696.1_Genomoviridae_China__Yangtze_River:0.1385555102)100:0.4222110532)100:0.4545585824)100:0.2131720262,(MK922280.1_Genomoviridae_Brazil:1.7313446340,MK922279.1_Genomoviridae_Brazil:0.8528395716)50:0.0616659623)46:0.0641388452)39:0.0365119279,Geminivirus_Rep_ACMV:1.1977181641)62:0.0351452410,(OQ792006.1_Gemycircularvirus_China__Heilongjiang:0.4688250597,((OQ792004.1_Genomoviridae_China__Heilongjiang:0.2650510003,(((NC_076469.1_Gemykolovirus_citas1_Tunisia:0.0000010000,MN708482.1_Gemykolovirus_citas1_Tunisia:0.0000010000)100:0.0008850733,(MN708484.1_Citrus_Tunisia_genomovirus_1_Tunisia:0.0000027241,MN708483.1_Citrus_Tunisia_genomovirus_1_Tunisia:0.0008851633)92:0.0000020172)100:0.1424968803,(NC_076375.1_Gemykolovirus_gopha1_USA:0.0000027242,MK570209.1_Gemykolovirus_gopha1_USA:0.0000010000)100:0.1355036618)99:0.0935714303)74:0.0453729148,(NC_076377.1_Gemykolovirus_gopha2_USA:0.0000010000,MK570213.1_Gemykolovirus_gopha2_USA:0.0000010000)100:0.2671753719)100:0.2159455414)100:0.2797956112)69:0.0995165629,(NC_076365.1_Gemykroznavirus_hydro1_Brazil:0.0000025604,MK483082.1_Gemykroznavirus_hydro1_Brazil:0.0000010000)100:0.9436591512)100:0.1739074598,(((OQ792016.1_Genomoviridae_China__Heilongjiang:0.0000020191,OQ792003.1_Genomoviridae_China__Heilongjiang:0.0000023885)100:0.0049954246,(OQ835320.1_Genomoviridae_China:0.0000010000,OQ779174.1_Genomoviridae_China:0.0000024931)87:0.0000029674)100:0.4897648343,((((((OQ792014.1_Genomoviridae_China__Heilongjiang:0.0000010000,(((OQ792013.1_Genomoviridae_China__Heilongjiang:0.0000029642,OQ792012.1_Genomoviridae_China__Heilongjiang:0.0094296351)89:0.0056662852,((((OQ792010.1_Genomoviridae_China__Heilongjiang:0.0000028799,(OQ835325.1_Genomoviridae_China:0.0000026132,OQ835324.1_Genomoviridae_China:0.0000020775)100:0.0011015523)99:0.0000021870,OQ835327.1_Genomoviridae_China:0.0000020801)100:0.0029966403,OQ779177.1_Genomoviridae_China:0.0235589852)100:0.3210719203,MW601957.1_Genomoviridae_Brazil:0.0889346560)94:0.0571389237)87:0.0065683204,OQ835322.1_Genomoviridae_China:0.0000010000)23:0.0000024172)18:0.0000027720,OQ835332.1_Genomoviridae_China:0.0000010000)19:0.0000021119,OQ835318.1_Genomoviridae_China:0.0000010000)85:0.0046818573,((((OK148622.1_Genomoviridae_Unknown:0.0018101893,OK148618.1_Genomoviridae_Unknown:0.0008965677)27:0.0000010000,(OK148620.1_Genomoviridae_Unknown:0.0008965198,OK148619.1_Genomoviridae_Unknown:0.0026927781)13:0.0000010000)11:0.0000029893,OK148616.1_Genomoviridae_Unknown:0.0008965393)20:0.0000010000,OK148617.1_Genomoviridae_Unknown:0.0017932443)99:0.0047807227)94:0.0225116646,MW601958.1_Genomoviridae_Brazil:0.0055011859)94:0.0395902070,(OK148624.1_Genomoviridae_Unknown:0.0141096107,(NC_024690.1_Gemykrogvirus_bovas1_Germany:0.0000010000,LK931484.1_Gemykrogvirus_bovas1_Germany:0.0000010000)100:0.0145897173)100:0.0854579158)100:0.3995585868)100:0.0898355497)99:0.1651850913,(NC_076287.1_Gemykrogvirus_apime1_USA:0.0000028882,MH973741.1_Gemykrogvirus_apime1_USA:0.0000020084)100:0.5622350284)100:0.6386382256)100:0.0161204782);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -92933.835898
+Robinson-Foulds distance between ML tree and consensus tree: 20
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--b52_Rep
+|
++--b54_Rep
+|
+|     +--b60_Rep
+|  +--| (99)
+|  |  +--NC_076496.1_Gemycircularvirus_Vietman
++--| (100)
+   |                                                         +--PV793856.1_Gemycircularvirus_China
+   |                                                      +--| (100)
+   |                                                      |  +--OL704838.1_Gemycircularvirus_Argentina
+   |                                                  +---| (100)
+   |                                                  |   |  +--MW562322.1_Genomoviridae_Saint_Vincent_and_the_Grenadines
+   |                                                  |   +--| (98)
+   |                                                  |      |  +--NC_035138.1_Gemycircularvirus_bemta1_Brazil
+   |                                                  |      +--| (100)
+   |                                                  |         +--KY230614.1_Gemycircularvirus_bemta1_Brazil
+   |                                               +--| (86)
+   |                                               |  |                  +**OQ792008.1_Gemycircularvirus_China__Heilongjiang
+   |                                               |  |               +--|
+   |                                               |  |               |  +**OQ835326.1_Gemycircularvirus_China
+   |                                               |  |            +--| (100)
+   |                                               |  |            |  +--OQ792001.1_Genomoviridae_China__Heilongjiang
+   |                                               |  |         +--| (100)
+   |                                               |  |         |  +--OQ779169.1_Genomoviridae_China
+   |                                               |  |     +---| (100)
+   |                                               |  |     |   +--MW436633.1_Genomoviridae_Brazil
+   |                                               |  |  +--| (84)
+   |                                               |  |  |  +------MK570221.1_Genomoviridae_USA
+   |                                               |  +--| (83)
+   |                                               |     |        +--NC_076470.1_Gemycircularvirus_citas1_Tunisia
+   |                                               |     |     +--| (100)
+   |                                               |     |     |  +--MN708485.1_Gemycircularvirus_citas1_Tunisia
+   |                                               |     |  +--| (100)
+   |                                               |     |  |  +--MT766311.1_Genomoviridae_Australia
+   |                                               |     +--| (99)
+   |                                               |        +------MW436632.1_Genomoviridae_Brazil
+   |                                            +--| (88)
+   |                                            |  |             +--NC_076378.1_Gemycircularvirus_gopha1_USA
+   |                                            |  |          +--| (100)
+   |                                            |  |          |  +--MK570217.1_Gemycircularvirus_gopha1_USA
+   |                                            |  |       +--| (100)
+   |                                            |  |       |  +--MK570222.1_Genomoviridae_USA
+   |                                            |  |  +----| (100)
+   |                                            |  |  |    |  +--MK570220.1_Genomoviridae_USA
+   |                                            |  |  |    +--| (99)
+   |                                            |  |  |       +--MK570219.1_Genomoviridae_USA
+   |                                            |  +--| (75)
+   |                                            |     |     +--NC_076353.1_Gemycircularvirus_austro2_New_Zealand__Canterbury
+   |                                            |     |  +--| (100)
+   |                                            |     |  |  +--MK433239.1_Gemycircularvirus_austro2_New_Zealand__Canterbury
+   |                                            |     +--| (100)
+   |                                            |        |   +--NC_076350.1_Gemycircularvirus_austro1_New_Zealand__Canterbury
+   |                                            |        +---| (100)
+   |                                            |            +--MK433234.1_Gemycircularvirus_austro1_New_Zealand__Canterbury
+   |                                         +--| (97)
+   |                                         |  |     +--PV646690.1_Genomoviridae_China
+   |                                         |  +-----| (100)
+   |                                         |        +-----OQ779179.1_Genomoviridae_China
+   |                                      +--| (97)
+   |                                      |  |               +--NC_076406.1_Gemycircularvirus_opunt1_France
+   |                                      |  |            +--| (100)
+   |                                      |  |            |  +--MK947372.1_Gemycircularvirus_opunt1_France
+   |                                      |  |        +---| (100)
+   |                                      |  |        |   |  +--MK570218.1_Genomoviridae_USA
+   |                                      |  |        |   +--| (100)
+   |                                      |  |        |      |  +--MK570212.1_Genomoviridae_USA
+   |                                      |  |        |      +--| (100)
+   |                                      |  |        |         +--MK570204.1_Genomoviridae_USA
+   |                                      |  |     +--| (94)
+   |                                      |  |     |  |   +--NC_076376.1_Gemycircularvirus_gopha2_USA
+   |                                      |  |     |  +---| (100)
+   |                                      |  |     |      +--MK570210.1_Gemycircularvirus_gopha2_USA
+   |                                      |  |  +--| (96)
+   |                                      |  |  |  +---------MK570223.1_Genomoviridae_USA
+   |                                      |  +--| (89)
+   |                                      |     |      +--NC_076355.1_Gemycircularvirus_austro4_New_Zealand__Canterbury
+   |                                      |     +------| (100)
+   |                                      |            +--MK433241.1_Gemycircularvirus_austro4_New_Zealand__Canterbury
+   |                                   +--| (99)
+   |                                   |  |                                      +--OQ792015.1_Genomoviridae_China__Heilongjiang
+   |                                   |  |                                   +--| (78)
+   |                                   |  |                                   |  |                    +**OQ792007.1_Genomoviridae_China__Heilongjiang
+   |                                   |  |                                   |  |                 +**|
+   |                                   |  |                                   |  |                 |  +**OQ835330.1_Genomoviridae_China
+   |                                   |  |                                   |  |              +**|
+   |                                   |  |                                   |  |              |  +**OQ835321.1_Genomoviridae_China
+   |                                   |  |                                   |  |           +**|
+   |                                   |  |                                   |  |           |  +**OQ792002.1_Genomoviridae_China__Heilongjiang
+   |                                   |  |                                   |  |        +**|
+   |                                   |  |                                   |  |        |  +**OQ779167.1_Genomoviridae_China
+   |                                   |  |                                   |  |     +**|
+   |                                   |  |                                   |  |     |  +**OQ835328.1_Genomoviridae_China
+   |                                   |  |                                   |  |  +--|
+   |                                   |  |                                   |  |  |  +**OQ835331.1_Genomoviridae_China
+   |                                   |  |                                   |  +--| (85)
+   |                                   |  |                                   |     +--OQ792005.1_Genomoviridae_China__Heilongjiang
+   |                                   |  |                                +--| (66)
+   |                                   |  |                                |  +--OQ779175.1_Genomoviridae_China
+   |                                   |  |                             +--| (96)
+   |                                   |  |                             |  +--OQ835317.1_Genomoviridae_China
+   |                                   |  |                          +--| (100)
+   |                                   |  |                          |  +--OQ779180.1_Genomoviridae_China
+   |                                   |  |                       +--| (99)
+   |                                   |  |                       |  +--OL704840.1_Gemycircularvirus_Argentina
+   |                                   |  |                    +--| (99)
+   |                                   |  |                    |  +--MK483083.1_Genomoviridae_Brazil
+   |                                   |  |                 +--| (100)
+   |                                   |  |                 |  |  +--MT214094.1_Genomoviridae_Brazil__Leopoldo_de_Bulhoes__GO
+   |                                   |  |                 |  +--| (100)
+   |                                   |  |                 |     +--MK483081.1_Genomoviridae_Brazil
+   |                                   |  |              +--| (100)
+   |                                   |  |              |  |  +--NC_076358.1_Gemycircularvirus_hydro1_Brazil
+   |                                   |  |              |  +--| (100)
+   |                                   |  |              |     +--MK483072.1_Gemycircularvirus_hydro1_Brazil
+   |                                   |  |           +--| (100)
+   |                                   |  |           |  +--OQ633436.1_Genomoviridae_Unknown
+   |                                   |  |        +--| (100)
+   |                                   |  |        |  |     +--OQ779178.1_Genomoviridae_China
+   |                                   |  |        |  |  +--| (100)
+   |                                   |  |        |  |  |  +--MW828677.1_Genomoviridae_Germany
+   |                                   |  |        |  +--| (100)
+   |                                   |  |        |     |  +--NC_076351.1_Gemycircularvirus_austro3_New_Zealand__Canterbury
+   |                                   |  |        |     +--| (100)
+   |                                   |  |        |        +--MK433236.1_Gemycircularvirus_austro3_New_Zealand__Canterbury
+   |                                   |  |     +--| (91)
+   |                                   |  |     |  |  +-----OL704839.1_Gemycircularvirus_Argentina
+   |                                   |  |     |  +--| (87)
+   |                                   |  |     |     +----MK433238.1_Genomoviridae_New_Zealand__Canterbury
+   |                                   |  |  +--| (99)
+   |                                   |  |  |  |           +--NC_075323.1_Gemycircularvirus_Hungary
+   |                                   |  |  |  |        +--| (100)
+   |                                   |  |  |  |        |  +--KY302866.1_Gemycircularvirus_Hungary
+   |                                   |  |  |  |     +--| (100)
+   |                                   |  |  |  |     |  +--KY302867.1_Gemycircularvirus_Hungary
+   |                                   |  |  |  +-----| (100)
+   |                                   |  |  |        +--OL704844.1_Gemycircularvirus_Argentina
+   |                                   |  +--| (95)
+   |                                   |     |        +--MW347486.1_Genomoviridae_China__Yangtze_River
+   |                                   |     +--------| (100)
+   |                                   |              |  +--NC_040379.1_Gemycircularvirus_China
+   |                                   |              +--| (100)
+   |                                   |                 +--KY312557.1_Gemycircularvirus_China
+   |                                +--| (71)
+   |                                |  |             +--MK433242.1_Gemycircularvirus_austro6_New_Zealand__Canterbury
+   |                                |  |        +----| (100)
+   |                                |  |        |    +--NC_076356.1_Genomoviridae_New_Zealand__Canterbury
+   |                                |  |  +-----| (100)
+   |                                |  |  |     |      +--NC_038481.1_Gemycircularvirus_mosqi1_USA__San_Diego
+   |                                |  |  |     +------| (100)
+   |                                |  |  |            +--HQ335086.1_Gemycircularvirus_mosqi1_USA__San_Diego
+   |                                |  +--| (71)
+   |                                |     |        +--NC_076352.1_Gemycircularvirus_austro5_New_Zealand__Canterbury
+   |                                |     |  +-----| (100)
+   |                                |     |  |     +--MK433237.1_Gemycircularvirus_austro5_New_Zealand__Canterbury
+   |                                |     +--| (100)
+   |                                |        +----MK433235.1_Genomoviridae_New_Zealand__Canterbury
+   |                             +--| (53)
+   |                             |  |                         +-----------MH782431.1_Genomoviridae_China
+   |                             |  +-------------------------| (100)
+   |                             |                            +---------MH782430.1_Genomoviridae_China
+   |                          +--| (63)
+   |                          |  |              +--PV329706.1_Gemykibivirus_Unknown
+   |                          |  |        +-----| (100)
+   |                          |  |        |     +--MK513443.1_Gemykibivirus_humas2_Brazil
+   |                          |  |     +--| (100)
+   |                          |  |     |  |           +--OQ792011.1_Genomoviridae_China__Heilongjiang
+   |                          |  |     |  |      +----| (100)
+   |                          |  |     |  |      |    +--MW601956.1_Genomoviridae_Brazil
+   |                          |  |     |  |  +---| (100)
+   |                          |  |     |  |  |   |  +--OK148623.1_Genomoviridae_Unknown
+   |                          |  |     |  |  |   +--| (100)
+   |                          |  |     |  |  |      +--OK148621.1_Genomoviridae_Unknown
+   |                          |  |     |  +--| (72)
+   |                          |  |     |     |    +--NC_024689.1_Gemykibivirus_bovas1_Germany
+   |                          |  |     |     +----| (100)
+   |                          |  |     |          +--LK931483.1_Gemykibivirus_bovas1_Germany
+   |                          |  |  +--| (90)
+   |                          |  |  |  +--------MW347513.1_Genomoviridae_China__Yangtze_River
+   |                          |  +--| (93)
+   |                          |     |                                             +**OQ792017.1_Genomoviridae_China__Heilongjiang
+   |                          |     |                                          +**|
+   |                          |     |                                          |  +**OQ779166.1_Genomoviridae_China
+   |                          |     |                                       +**|
+   |                          |     |                                       |  +**OQ779172.1_Genomoviridae_China
+   |                          |     |                                    +**|
+   |                          |     |                                    |  +**OQ779173.1_Genomoviridae_China
+   |                          |     |                                 +**|
+   |                          |     |                                 |  +**OQ835329.1_Genomoviridae_China
+   |                          |     |                              +--|
+   |                          |     |                              |  +**OQ779170.1_Genomoviridae_China
+   |                          |     |                           +--| (80)
+   |                          |     |                           |  +--OQ792009.1_Genomoviridae_China__Heilongjiang
+   |                          |     |                       +---| (100)
+   |                          |     |                       |   |  +--OQ835323.1_Genomoviridae_China
+   |                          |     |                       |   +--| (49)
+   |                          |     |                       |      +--OQ835319.1_Genomoviridae_China
+   |                          |     |                    +--| (94)
+   |                          |     |                    |  +--MK947375.1_Genomoviridae_USA
+   |                          |     |                 +--| (99)
+   |                          |     |                 |  |                       +--MK947374.1_Genomoviridae_USA
+   |                          |     |                 |  |                    +--| (100)
+   |                          |     |                 |  |                    |  |  +--MK570203.1_Genomoviridae_USA
+   |                          |     |                 |  |                    |  +--| (100)
+   |                          |     |                 |  |                    |     +--MK570201.1_Genomoviridae_USA
+   |                          |     |                 |  |                 +--| (100)
+   |                          |     |                 |  |                 |  +--MK570206.1_Genomoviridae_USA
+   |                          |     |                 |  |              +--| (100)
+   |                          |     |                 |  |              |  |  +--MK570208.1_Genomoviridae_USA
+   |                          |     |                 |  |              |  +--| (100)
+   |                          |     |                 |  |              |     +--MK570207.1_Genomoviridae_USA
+   |                          |     |                 |  |           +--| (100)
+   |                          |     |                 |  |           |  |     +--MH973740.1_Genomoviridae_USA
+   |                          |     |                 |  |           |  |  +--| (100)
+   |                          |     |                 |  |           |  |  |  +--MH973738.1_Genomoviridae_USA
+   |                          |     |                 |  |           |  +--| (100)
+   |                          |     |                 |  |           |     |  +--MH973739.1_Genomoviridae_USA
+   |                          |     |                 |  |           |     +--| (99)
+   |                          |     |                 |  |           |        +--MH973737.1_Genomoviridae_USA
+   |                          |     |                 |  |        +--| (100)
+   |                          |     |                 |  |        |  +--MK570216.1_Genomoviridae_USA
+   |                          |     |                 |  |     +--| (99)
+   |                          |     |                 |  |     |  |  +--MK570211.1_Genomoviridae_USA
+   |                          |     |                 |  |     |  +--| (98)
+   |                          |     |                 |  |     |     +--MK570205.1_Genomoviridae_USA
+   |                          |     |                 |  |  +--| (100)
+   |                          |     |                 |  |  |  |     +--MK570215.1_Genomoviridae_USA
+   |                          |     |                 |  |  |  |  +--| (99)
+   |                          |     |                 |  |  |  |  |  +--MK570214.1_Genomoviridae_USA
+   |                          |     |                 |  |  |  +--| (100)
+   |                          |     |                 |  |  |     +--MK570202.1_Genomoviridae_USA
+   |                          |     |                 |  +--| (100)
+   |                          |     |                 |     |  +--NC_030448.1_Gemykibivirus_humas5_France
+   |                          |     |                 |     +--| (100)
+   |                          |     |                 |        +--KU343137.1_Gemykibivirus_humas5_France
+   |                          |     |              +--| (76)
+   |                          |     |              |  |     +--NC_076366.1_Gemykibivirus_hydro3_Brazil
+   |                          |     |              |  |  +--| (100)
+   |                          |     |              |  |  |  +--MK483084.1_Gemykibivirus_hydro3_Brazil
+   |                          |     |              |  +--| (100)
+   |                          |     |              |     +--MT766310.1_Genomoviridae_Australia
+   |                          |     |           +--| (100)
+   |                          |     |           |  |              +--NC_076361.1_Gemykibivirus_hydro1_Brazil
+   |                          |     |           |  |           +--| (100)
+   |                          |     |           |  |           |  +--MK483076.1_Gemykibivirus_hydro1_Brazil
+   |                          |     |           |  |        +--| (100)
+   |                          |     |           |  |        |  |  +--NC_035139.1_Gemykibivirus_bemta1_Brazil
+   |                          |     |           |  |        |  +--| (100)
+   |                          |     |           |  |        |     +--KY230625.1_Gemykibivirus_bemta1_Brazil
+   |                          |     |           |  |     +--| (100)
+   |                          |     |           |  |     |  +--MW562318.1_Genomoviridae_Saint_Vincent_and_the_Grenadines
+   |                          |     |           |  |  +--| (98)
+   |                          |     |           |  |  |  |     +--NC_076359.1_Gemykibivirus_hydro2_Brazil
+   |                          |     |           |  |  |  |  +--| (100)
+   |                          |     |           |  |  |  |  |  +--MK483073.1_Gemykibivirus_hydro2_Brazil
+   |                          |     |           |  |  |  +--| (100)
+   |                          |     |           |  |  |     +--MK483074.1_Gemykibivirus_hydro2_Brazil
+   |                          |     |           |  +--| (77)
+   |                          |     |           |     +---MW347503.1_Genomoviridae_China__Yangtze_River
+   |                          |     |        +--| (77)
+   |                          |     |        |  |        +--NC_076408.1_Gemykibivirus_planta2_USA
+   |                          |     |        |  |  +-----| (100)
+   |                          |     |        |  |  |     +--MK947376.1_Gemykibivirus_planta2_USA
+   |                          |     |        |  +--| (57)
+   |                          |     |        |     +-------OL704847.1_Gemykibivirus_Argentina
+   |                          |     |     +--| (39)
+   |                          |     |     |  |            +--NC_076354.1_Gemyduguivirus_austo1_New_Zealand__Canterbury
+   |                          |     |     |  |  +---------| (100)
+   |                          |     |     |  |  |         +--MK433240.1_Gemyduguivirus_austo1_New_Zealand__Canterbury
+   |                          |     |     |  +--| (38)
+   |                          |     |     |     |  +---OL704846.1_Gemykibivirus_Argentina
+   |                          |     |     |     +--| (100)
+   |                          |     |     |        |  +--OL704842.1_Gemykibivirus_Argentina
+   |                          |     |     |        +--| (100)
+   |                          |     |     |           +--OL704841.1_Gemykibivirus_Argentina
+   |                          |     |  +--| (24)
+   |                          |     |  |  |        +--NC_076407.1_Gemygorvirus_opunt1_France
+   |                          |     |  |  |     +--| (100)
+   |                          |     |  |  |     |  +--MK947373.1_Gemygorvirus_opunt1_France
+   |                          |     |  |  |  +--| (100)
+   |                          |     |  |  |  |  |  +--NC_076363.1_Gemygorvirus_hydro1_Brazil
+   |                          |     |  |  |  |  +--| (100)
+   |                          |     |  |  |  |     +--MK483078.1_Gemygorvirus_hydro1_Brazil
+   |                          |     |  |  +--| (100)
+   |                          |     |  |     +---OL704845.1_Gemygorvirus_Argentina
+   |                          |     +--| (45)
+   |                          |        |     +--OL704843.1_Gemykibivirus_Argentina
+   |                          |        |  +--| (100)
+   |                          |        |  |  +--OL704837.1_Gemykibivirus_Argentina
+   |                          |        +--| (90)
+   |                          |           |         +--MK513442.1_Gemykibivirus_humas1_Brazil
+   |                          |           |      +--| (100)
+   |                          |           |      |  |  +--NC_030447.1_Gemycircularvirus_France
+   |                          |           |      |  +--| (70)
+   |                          |           |      |     +--KU343136.1_Gemycircularvirus_France
+   |                          |           |   +--| (92)
+   |                          |           |   |  |  +--KP974694.1_Gemykibivirus_humas1_Germany
+   |                          |           |   |  +--| (100)
+   |                          |           |   |     |  +--NC_024691.1_Gemykibivirus_humas1_Germany
+   |                          |           |   |     +--| (100)
+   |                          |           |   |        +--LK931485.1_Gemykibivirus_humas1_Germany
+   |                          |           +---| (100)
+   |                          |               +--MK483079.1_Genomoviridae_Brazil
+   |                       +--| (60)
+   |                       |  |                +--NC_076364.1_Gemyduguivirus_hydro2_Brazil
+   |                       |  |             +--| (100)
+   |                       |  |             |  +--MK483080.1_Gemyduguivirus_hydro2_Brazil
+   |                       |  |          +--| (100)
+   |                       |  |          |  +--MK483085.1_Genomoviridae_Brazil
+   |                       |  |       +--| (100)
+   |                       |  |       |  |  +--NC_076360.1_Gemyduguivirus_hydro1_Brazil
+   |                       |  |       |  +--| (100)
+   |                       |  |       |     +--MK483075.1_Gemyduguivirus_hydro1_Brazil
+   |                       |  |  +----| (100)
+   |                       |  |  |    |        +--NC_076362.1_Gemyduguivirus_hydro3_Brazil
+   |                       |  |  |    |     +--| (100)
+   |                       |  |  |    |     |  +--MK483077.1_Gemyduguivirus_hydro3_Brazil
+   |                       |  |  |    |  +--| (100)
+   |                       |  |  |    |  |  |  +--NC_035137.1_Gemyduguivirus_bemta1_Brazil
+   |                       |  |  |    |  |  +--| (100)
+   |                       |  |  |    |  |     +--KY230613.1_Gemyduguivirus_bemta1_Brazil
+   |                       |  |  |    +--| (92)
+   |                       |  |  |       |   +--NC_075325.1_Gemycircularvirus_China
+   |                       |  |  |       +---| (100)
+   |                       |  |  |           +--KY312558.1_Gemycircularvirus_China
+   |                       |  +--| (86)
+   |                       |     +---------------------MH782432.1_Gemycircularvirus_China
+   |                    +--| (39)
+   |                    |  |     +----MW562320.1_Genomoviridae_Saint_Vincent_and_the_Grenadines
+   |                    |  |  +--| (100)
+   |                    |  |  |  |           +--MW347512.1_Genomoviridae_China__Yangtze_River
+   |                    |  |  |  |      +----| (100)
+   |                    |  |  |  |      |    |  +--NC_028459.1_Gemyvongvirus_humas1_Germany
+   |                    |  |  |  |      |    +--| (100)
+   |                    |  |  |  |      |       +--KP974693.1_Gemyvongvirus_humas1_Germany
+   |                    |  |  |  +------| (100)
+   |                    |  |  |         |     +--MW347506.1_Genomoviridae_China__Yangtze_River
+   |                    |  |  |         +-----| (100)
+   |                    |  |  |               +--MW346696.1_Genomoviridae_China__Yangtze_River
+   |                    |  +--| (46)
+   |                    |     |  +--------------------------MK922280.1_Genomoviridae_Brazil
+   |                    |     +--| (50)
+   |                    |        +------------MK922279.1_Genomoviridae_Brazil
+   |                 +--| (62)
+   |                 |  +-----------------Geminivirus_Rep_ACMV
+   |              +--| (69)
+   |              |  |   +------OQ792006.1_Gemycircularvirus_China__Heilongjiang
+   |              |  +---| (100)
+   |              |      |     +---OQ792004.1_Genomoviridae_China__Heilongjiang
+   |              |      |  +--| (74)
+   |              |      |  |  |        +--NC_076469.1_Gemykolovirus_citas1_Tunisia
+   |              |      |  |  |     +--| (100)
+   |              |      |  |  |     |  +--MN708482.1_Gemykolovirus_citas1_Tunisia
+   |              |      |  |  |  +--| (100)
+   |              |      |  |  |  |  |  +--MN708484.1_Citrus_Tunisia_genomovirus_1_Tunisia
+   |              |      |  |  |  |  +--| (92)
+   |              |      |  |  |  |     +--MN708483.1_Citrus_Tunisia_genomovirus_1_Tunisia
+   |              |      |  |  +--| (99)
+   |              |      |  |     |  +--NC_076375.1_Gemykolovirus_gopha1_USA
+   |              |      |  |     +--| (100)
+   |              |      |  |        +--MK570209.1_Gemykolovirus_gopha1_USA
+   |              |      +--| (100)
+   |              |         |   +--NC_076377.1_Gemykolovirus_gopha2_USA
+   |              |         +---| (100)
+   |              |             +--MK570213.1_Gemykolovirus_gopha2_USA
+   |           +--| (100)
+   |           |  |             +--NC_076365.1_Gemykroznavirus_hydro1_Brazil
+   |           |  +-------------| (100)
+   |           |                +--MK483082.1_Gemykroznavirus_hydro1_Brazil
+   |        +--| (99)
+   |        |  |            +--OQ792016.1_Genomoviridae_China__Heilongjiang
+   |        |  |         +--| (100)
+   |        |  |         |  +--OQ792003.1_Genomoviridae_China__Heilongjiang
+   |        |  |  +------| (100)
+   |        |  |  |      |        +**OQ835320.1_Genomoviridae_China
+   |        |  |  |      |     +**|
+   |        |  |  |      |     |  +**OQ779168.1_Genomoviridae_China
+   |        |  |  |      |  +--|
+   |        |  |  |      |  |  +**OQ779171.1_Genomoviridae_China
+   |        |  |  |      +--| (87)
+   |        |  |  |         +--OQ779174.1_Genomoviridae_China
+   |        |  +--| (100)
+   |        |     |              +--OQ792014.1_Genomoviridae_China__Heilongjiang
+   |        |     |           +--| (85)
+   |        |     |           |  |              +--OQ792013.1_Genomoviridae_China__Heilongjiang
+   |        |     |           |  |           +--| (89)
+   |        |     |           |  |           |  +--OQ792012.1_Genomoviridae_China__Heilongjiang
+   |        |     |           |  |        +--| (87)
+   |        |     |           |  |        |  |             +--OQ792010.1_Genomoviridae_China__Heilongjiang
+   |        |     |           |  |        |  |          +--| (99)
+   |        |     |           |  |        |  |          |  |  +--OQ835325.1_Genomoviridae_China
+   |        |     |           |  |        |  |          |  +--| (100)
+   |        |     |           |  |        |  |          |     +--OQ835324.1_Genomoviridae_China
+   |        |     |           |  |        |  |       +--| (100)
+   |        |     |           |  |        |  |       |  +--OQ835327.1_Genomoviridae_China
+   |        |     |           |  |        |  |  +----| (100)
+   |        |     |           |  |        |  |  |    +--OQ779177.1_Genomoviridae_China
+   |        |     |           |  |        |  +--| (94)
+   |        |     |           |  |        |     +--MW601957.1_Genomoviridae_Brazil
+   |        |     |           |  |     +--| (23)
+   |        |     |           |  |     |  +--OQ835322.1_Genomoviridae_China
+   |        |     |           |  |  +--| (16)
+   |        |     |           |  |  |  +--OQ835318.1_Genomoviridae_China
+   |        |     |           |  +--| (21)
+   |        |     |           |     +--OQ835332.1_Genomoviridae_China
+   |        |     |        +--| (94)
+   |        |     |        |  |           +--OK148622.1_Genomoviridae_Unknown
+   |        |     |        |  |        +--| (27)
+   |        |     |        |  |        |  +--OK148618.1_Genomoviridae_Unknown
+   |        |     |        |  |     +--| (22)
+   |        |     |        |  |     |  |  +--OK148620.1_Genomoviridae_Unknown
+   |        |     |        |  |     |  +--| (18)
+   |        |     |        |  |     |     +--OK148616.1_Genomoviridae_Unknown
+   |        |     |        |  |  +--| (44)
+   |        |     |        |  |  |  +--OK148617.1_Genomoviridae_Unknown
+   |        |     |        |  +--| (99)
+   |        |     |        |     +--OK148619.1_Genomoviridae_Unknown
+   |        |     |     +--| (94)
+   |        |     |     |  +--MW601958.1_Genomoviridae_Brazil
+   |        |     +-----| (100)
+   |        |           |  +--OK148624.1_Genomoviridae_Unknown
+   |        |           +--| (100)
+   |        |              |  +--NC_024690.1_Gemykrogvirus_bovas1_Germany
+   |        |              +--| (100)
+   |        |                 +--LK931484.1_Gemykrogvirus_bovas1_Germany
+   +--------| (100)
+            |       +--NC_076287.1_Gemykrogvirus_apime1_USA
+            +-------| (100)
+                    +--MH973741.1_Gemykrogvirus_apime1_USA
+
+
+Consensus tree in newick format: 
+
+(b52_Rep:0.0000023441,b54_Rep:0.0000023441,((b60_Rep:0.0596627152,NC_076496.1_Gemycircularvirus_Vietman:0.0205117054)99:0.0076267693,(((((((((((((((((PV793856.1_Gemycircularvirus_China:0.0680026195,OL704838.1_Gemycircularvirus_Argentina:0.1131937598)100:0.0559566062,(MW562322.1_Genomoviridae_Saint_Vincent_and_the_Grenadines:0.1080855626,(NC_035138.1_Gemycircularvirus_bemta1_Brazil:0.0000023441,KY230614.1_Gemycircularvirus_bemta1_Brazil:0.0000023441)100:0.1494065631)98:0.0326408806)100:0.2740905352,((((((OQ792008.1_Gemycircularvirus_China__Heilongjiang:0.0000000000,OQ835326.1_Gemycircularvirus_China:0.0000000000):0.0000023441,OQ792001.1_Genomoviridae_China__Heilongjiang:0.0000023441)100:0.0046238253,OQ779169.1_Genomoviridae_China:0.0000023441)100:0.1056433237,MW436633.1_Genomoviridae_Brazil:0.0378718468)100:0.2685704446,MK570221.1_Genomoviridae_USA:0.4485215656)84:0.0684662046,(((NC_076470.1_Gemycircularvirus_citas1_Tunisia:0.0000023441,MN708485.1_Gemycircularvirus_citas1_Tunisia:0.0000023441)100:0.1187902817,MT766311.1_Genomoviridae_Australia:0.1121296655)100:0.2040504265,MW436632.1_Genomoviridae_Brazil:0.4581183672)99:0.0432015311)83:0.0335074635)86:0.0451199695,((((NC_076378.1_Gemycircularvirus_gopha1_USA:0.0000023441,MK570217.1_Gemycircularvirus_gopha1_USA:0.0000023441)100:0.0206060026,MK570222.1_Genomoviridae_USA:0.0087368350)100:0.0441972557,(MK570220.1_Genomoviridae_USA:0.0047666762,MK570219.1_Genomoviridae_USA:0.0045601249)99:0.0194904443)100:0.3704678896,((NC_076353.1_Gemycircularvirus_austro2_New_Zealand__Canterbury:0.0000023441,MK433239.1_Gemycircularvirus_austro2_New_Zealand__Canterbury:0.0000023441)100:0.1800566377,(NC_076350.1_Gemycircularvirus_austro1_New_Zealand__Canterbury:0.0000023441,MK433234.1_Gemycircularvirus_austro1_New_Zealand__Canterbury:0.0000023441)100:0.2775906032)100:0.0944190823)75:0.0532193515)88:0.0383895353,(PV646690.1_Genomoviridae_China:0.1574374459,OQ779179.1_Genomoviridae_China:0.4046660642)100:0.3932530820)97:0.0588088228,(((((NC_076406.1_Gemycircularvirus_opunt1_France:0.0000023441,MK947372.1_Gemycircularvirus_opunt1_France:0.0000023441)100:0.1207477409,(MK570218.1_Genomoviridae_USA:0.0819872579,(MK570212.1_Genomoviridae_USA:0.0170782749,MK570204.1_Genomoviridae_USA:0.0404356499)100:0.0439214829)100:0.0416508304)100:0.2854210264,(NC_076376.1_Gemycircularvirus_gopha2_USA:0.0000023441,MK570210.1_Gemycircularvirus_gopha2_USA:0.0000023441)100:0.2890413173)94:0.0480016310,MK570223.1_Genomoviridae_USA:0.6432843869)96:0.0476503897,(NC_076355.1_Gemycircularvirus_austro4_New_Zealand__Canterbury:0.0000023441,MK433241.1_Gemycircularvirus_austro4_New_Zealand__Canterbury:0.0000023441)100:0.4502260900)89:0.0482532443)97:0.0788358502,(((((((((((((OQ792015.1_Genomoviridae_China__Heilongjiang:0.0030850134,(((((((OQ792007.1_Genomoviridae_China__Heilongjiang:0.0000000000,OQ835330.1_Genomoviridae_China:0.0000000000):0.0000000000,OQ835321.1_Genomoviridae_China:0.0000000000):0.0000000000,OQ792002.1_Genomoviridae_China__Heilongjiang:0.0000000000):0.0000000000,OQ779167.1_Genomoviridae_China:0.0000000000):0.0000000000,OQ835328.1_Genomoviridae_China:0.0000000000):0.0000000000,OQ835331.1_Genomoviridae_China:0.0000000000):0.0000023441,OQ792005.1_Genomoviridae_China__Heilongjiang:0.0000023441)85:0.0000023441)78:0.0013975669,OQ779175.1_Genomoviridae_China:0.0000023441)66:0.0006936775,OQ835317.1_Genomoviridae_China:0.0040976652)96:0.0074028835,OQ779180.1_Genomoviridae_China:0.0039778745)100:0.0364671216,OL704840.1_Gemycircularvirus_Argentina:0.1082135758)99:0.0816052448,MK483083.1_Genomoviridae_Brazil:0.0359889770)99:0.0263212405,(MT214094.1_Genomoviridae_Brazil__Leopoldo_de_Bulhoes__GO:0.0280603760,MK483081.1_Genomoviridae_Brazil:0.0450260367)100:0.0257388006)100:0.0983098681,(NC_076358.1_Gemycircularvirus_hydro1_Brazil:0.0000023441,MK483072.1_Gemycircularvirus_hydro1_Brazil:0.0000023441)100:0.1636561308)100:0.1005228003,OQ633436.1_Genomoviridae_Unknown:0.1710071345)100:0.1075126518,((OQ779178.1_Genomoviridae_China:0.1426845463,MW828677.1_Genomoviridae_Germany:0.0701687064)100:0.0507703954,(NC_076351.1_Gemycircularvirus_austro3_New_Zealand__Canterbury:0.0000023441,MK433236.1_Gemycircularvirus_austro3_New_Zealand__Canterbury:0.0000023441)100:0.1082419349)100:0.1254745606)100:0.1071257588,(OL704839.1_Gemycircularvirus_Argentina:0.4130663821,MK433238.1_Genomoviridae_New_Zealand__Canterbury:0.3518770948)87:0.0404167278)91:0.0805813706,(((NC_075323.1_Gemycircularvirus_Hungary:0.0000023441,KY302866.1_Gemycircularvirus_Hungary:0.0000023441)100:0.0040573945,KY302867.1_Gemycircularvirus_Hungary:0.0004716173)100:0.2049432727,OL704844.1_Gemycircularvirus_Argentina:0.1686761047)100:0.4193243130)99:0.0780865107,(MW347486.1_Genomoviridae_China__Yangtze_River:0.0000020637,(NC_040379.1_Gemycircularvirus_China:0.0000023441,KY312557.1_Gemycircularvirus_China:0.0000023441)100:0.0029164113)100:0.6097889815)95:0.0750621141)99:0.0491407147,(((MK433242.1_Gemycircularvirus_austro6_New_Zealand__Canterbury:0.0000023441,NC_076356.1_Genomoviridae_New_Zealand__Canterbury:0.0000023441)100:0.3550014022,(NC_038481.1_Gemycircularvirus_mosqi1_USA__San_Diego:0.0000023441,HQ335086.1_Gemycircularvirus_mosqi1_USA__San_Diego:0.0000023441)100:0.4669345996)100:0.3950326897,((NC_076352.1_Gemycircularvirus_austro5_New_Zealand__Canterbury:0.0000023441,MK433237.1_Gemycircularvirus_austro5_New_Zealand__Canterbury:0.0000023441)100:0.3890046284,MK433235.1_Genomoviridae_New_Zealand__Canterbury:0.3384223400)100:0.1495336129)71:0.0618073507)71:0.0588067219,(MH782431.1_Genomoviridae_China:0.8100879082,MH782430.1_Genomoviridae_China:0.6838153985)100:1.6862099947)53:0.0044992897,((((PV329706.1_Gemykibivirus_Unknown:0.0033362567,MK513443.1_Gemykibivirus_humas2_Brazil:0.0071560314)100:0.4288126269,(((OQ792011.1_Genomoviridae_China__Heilongjiang:0.0086043363,MW601956.1_Genomoviridae_Brazil:0.0042396394)100:0.3265589909,(OK148623.1_Genomoviridae_Unknown:0.0018752927,OK148621.1_Genomoviridae_Unknown:0.0029645093)100:0.1815002398)100:0.3092843362,(NC_024689.1_Gemykibivirus_bovas1_Germany:0.0000023441,LK931483.1_Gemykibivirus_bovas1_Germany:0.0000023441)100:0.3305125225)72:0.0642885308)100:0.0786116719,MW347513.1_Genomoviridae_China__Yangtze_River:0.5940505557)90:0.0943600851,(((((((((((((((OQ792017.1_Genomoviridae_China__Heilongjiang:0.0000000000,OQ779166.1_Genomoviridae_China:0.0000000000):0.0000000000,OQ779172.1_Genomoviridae_China:0.0000000000):0.0000000000,OQ779173.1_Genomoviridae_China:0.0000000000):0.0000000000,OQ835329.1_Genomoviridae_China:0.0000000000):0.0000000000,OQ779170.1_Genomoviridae_China:0.0000000000):0.0000023441,OQ792009.1_Genomoviridae_China__Heilongjiang:0.0000023441)80:0.0000026870,(OQ835323.1_Genomoviridae_China:0.0000023441,OQ835319.1_Genomoviridae_China:0.0000023441)49:0.0000023441)100:0.2944032449,MK947375.1_Genomoviridae_USA:0.2177558493)94:0.0576096758,((((((((MK947374.1_Genomoviridae_USA:0.0312634189,(MK570203.1_Genomoviridae_USA:0.0115900861,MK570201.1_Genomoviridae_USA:0.0085376511)100:0.0352977780)100:0.0187935089,MK570206.1_Genomoviridae_USA:0.0137106373)100:0.0130492325,(MK570208.1_Genomoviridae_USA:0.0151629739,MK570207.1_Genomoviridae_USA:0.0135058767)100:0.0243693724)100:0.0216845153,((MH973740.1_Genomoviridae_USA:0.0019391757,MH973738.1_Genomoviridae_USA:0.0018876648)100:0.0068228177,(MH973739.1_Genomoviridae_USA:0.0009478406,MH973737.1_Genomoviridae_USA:0.0018938183)99:0.0008008641)100:0.0285696785)100:0.0383378420,MK570216.1_Genomoviridae_USA:0.0201844681)100:0.0248759730,(MK570211.1_Genomoviridae_USA:0.0528255721,MK570205.1_Genomoviridae_USA:0.0007152116)98:0.0322211827)99:0.0676628379,((MK570215.1_Genomoviridae_USA:0.0054534502,MK570214.1_Genomoviridae_USA:0.0000023441)99:0.0019669265,MK570202.1_Genomoviridae_USA:0.0044114432)100:0.1231398272)100:0.0773751355,(NC_030448.1_Gemykibivirus_humas5_France:0.0000023441,KU343137.1_Gemykibivirus_humas5_France:0.0000023441)100:0.2233882972)100:0.0465695970)99:0.0576995829,((NC_076366.1_Gemykibivirus_hydro3_Brazil:0.0000023441,MK483084.1_Gemykibivirus_hydro3_Brazil:0.0000023441)100:0.2265676310,MT766310.1_Genomoviridae_Australia:0.1200218366)100:0.1698035599)76:0.0304122352,(((((NC_076361.1_Gemykibivirus_hydro1_Brazil:0.0000023441,MK483076.1_Gemykibivirus_hydro1_Brazil:0.0000023441)100:0.0921682267,(NC_035139.1_Gemykibivirus_bemta1_Brazil:0.0000023441,KY230625.1_Gemykibivirus_bemta1_Brazil:0.0000023441)100:0.0868407106)100:0.0719517922,MW562318.1_Genomoviridae_Saint_Vincent_and_the_Grenadines:0.0470494084)100:0.0977546656,((NC_076359.1_Gemykibivirus_hydro2_Brazil:0.0000023441,MK483073.1_Gemykibivirus_hydro2_Brazil:0.0000023441)100:0.0029924474,MK483074.1_Gemykibivirus_hydro2_Brazil:0.0052854125)100:0.1645818827)98:0.0686631534,MW347503.1_Genomoviridae_China__Yangtze_River:0.2942269727)77:0.0407070232)100:0.1575488863,((NC_076408.1_Gemykibivirus_planta2_USA:0.0000023441,MK947376.1_Gemykibivirus_planta2_USA:0.0000023441)100:0.3828425977,OL704847.1_Gemykibivirus_Argentina:0.5148001546)57:0.0478851825)77:0.0481582977,((NC_076354.1_Gemyduguivirus_austo1_New_Zealand__Canterbury:0.0000023441,MK433240.1_Gemyduguivirus_austo1_New_Zealand__Canterbury:0.0000023441)100:0.6483660740,(OL704846.1_Gemykibivirus_Argentina:0.2968597028,(OL704842.1_Gemykibivirus_Argentina:0.1216397789,OL704841.1_Gemykibivirus_Argentina:0.1569223468)100:0.0789544057)100:0.1260280965)38:0.0575309351)39:0.0263234719,(((NC_076407.1_Gemygorvirus_opunt1_France:0.0000023441,MK947373.1_Gemygorvirus_opunt1_France:0.0000023441)100:0.1292193059,(NC_076363.1_Gemygorvirus_hydro1_Brazil:0.0000023441,MK483078.1_Gemygorvirus_hydro1_Brazil:0.0000023441)100:0.1407088127)100:0.1512256073,OL704845.1_Gemygorvirus_Argentina:0.2843535262)100:0.2273790083)24:0.0308073632,((OL704843.1_Gemykibivirus_Argentina:0.2068668494,OL704837.1_Gemykibivirus_Argentina:0.2004642654)100:0.2194103059,(((MK513442.1_Gemykibivirus_humas1_Brazil:0.0012941730,(NC_030447.1_Gemycircularvirus_France:0.0000023441,KU343136.1_Gemycircularvirus_France:0.0000023441)70:0.0000023441)100:0.0845837235,(KP974694.1_Gemykibivirus_humas1_Germany:0.0405808421,(NC_024691.1_Gemykibivirus_humas1_Germany:0.0000023441,LK931485.1_Gemykibivirus_humas1_Germany:0.0000023441)100:0.0516646884)100:0.0427967472)92:0.0206405005,MK483079.1_Genomoviridae_Brazil:0.0634350627)100:0.3159017902)90:0.0914780566)45:0.0517114738)93:0.0752426433)63:0.0840805238,(((((NC_076364.1_Gemyduguivirus_hydro2_Brazil:0.0000023441,MK483080.1_Gemyduguivirus_hydro2_Brazil:0.0000023441)100:0.0385332917,MK483085.1_Genomoviridae_Brazil:0.0482173119)100:0.1299945502,(NC_076360.1_Gemyduguivirus_hydro1_Brazil:0.0000023441,MK483075.1_Gemyduguivirus_hydro1_Brazil:0.0000023441)100:0.1162036728)100:0.0608226253,(((NC_076362.1_Gemyduguivirus_hydro3_Brazil:0.0000023441,MK483077.1_Gemyduguivirus_hydro3_Brazil:0.0000023441)100:0.1191110049,(NC_035137.1_Gemyduguivirus_bemta1_Brazil:0.0000023441,KY230613.1_Gemyduguivirus_bemta1_Brazil:0.0000023441)100:0.1247134663)100:0.1199119837,(NC_075325.1_Gemycircularvirus_China:0.0000023441,KY312558.1_Gemycircularvirus_China:0.0000023441)100:0.2728926837)92:0.0310723849)100:0.3304581485,MH782432.1_Gemycircularvirus_China:1.4267184602)86:0.1705675230)60:0.0721982683,((MW562320.1_Genomoviridae_Saint_Vincent_and_the_Grenadines:0.3632321588,((MW347512.1_Genomoviridae_China__Yangtze_River:0.0049394281,(NC_028459.1_Gemyvongvirus_humas1_Germany:0.0000023441,KP974693.1_Gemyvongvirus_humas1_Germany:0.0000023441)100:0.0116521379)100:0.3542924369,(MW347506.1_Genomoviridae_China__Yangtze_River:0.0977547847,MW346696.1_Genomoviridae_China__Yangtze_River:0.1385315609)100:0.4192318270)100:0.4557728455)100:0.2089743372,(MK922280.1_Genomoviridae_Brazil:1.7209348391,MK922279.1_Genomoviridae_Brazil:0.8508046468)50:0.0629348739)46:0.0623571146)39:0.0373262205,Geminivirus_Rep_ACMV:1.1885313366)62:0.0353958950,(OQ792006.1_Gemycircularvirus_China__Heilongjiang:0.4696610665,((OQ792004.1_Genomoviridae_China__Heilongjiang:0.2646209974,(((NC_076469.1_Gemykolovirus_citas1_Tunisia:0.0000023441,MN708482.1_Gemykolovirus_citas1_Tunisia:0.0000023441)100:0.0008824476,(MN708484.1_Citrus_Tunisia_genomovirus_1_Tunisia:0.0000023441,MN708483.1_Citrus_Tunisia_genomovirus_1_Tunisia:0.0008825562)92:0.0000023441)100:0.1424296342,(NC_076375.1_Gemykolovirus_gopha1_USA:0.0000023441,MK570209.1_Gemykolovirus_gopha1_USA:0.0000023441)100:0.1349031586)99:0.0934128446)74:0.0461605734,(NC_076377.1_Gemykolovirus_gopha2_USA:0.0000023441,MK570213.1_Gemykolovirus_gopha2_USA:0.0000023441)100:0.2650227003)100:0.2136604272)100:0.2841282731)69:0.0944395047,(NC_076365.1_Gemykroznavirus_hydro1_Brazil:0.0000023441,MK483082.1_Gemykroznavirus_hydro1_Brazil:0.0000023441)100:0.9356354566)100:0.1733636549,(((OQ792016.1_Genomoviridae_China__Heilongjiang:0.0000023441,OQ792003.1_Genomoviridae_China__Heilongjiang:0.0000023441)100:0.0049849733,(((OQ835320.1_Genomoviridae_China:0.0000000000,OQ779168.1_Genomoviridae_China:0.0000000000):0.0000000000,OQ779171.1_Genomoviridae_China:0.0000000000):0.0000023441,OQ779174.1_Genomoviridae_China:0.0000023441)87:0.0000023441)100:0.4868789441,((((OQ792014.1_Genomoviridae_China__Heilongjiang:0.0000023441,(((((OQ792013.1_Genomoviridae_China__Heilongjiang:0.0000023441,OQ792012.1_Genomoviridae_China__Heilongjiang:0.0094071140)89:0.0056578971,((((OQ792010.1_Genomoviridae_China__Heilongjiang:0.0000023441,(OQ835325.1_Genomoviridae_China:0.0000023441,OQ835324.1_Genomoviridae_China:0.0000023441)100:0.0010984067)99:0.0000023441,OQ835327.1_Genomoviridae_China:0.0000023441)100:0.0029810317,OQ779177.1_Genomoviridae_China:0.0235190345)100:0.3202214633,MW601957.1_Genomoviridae_Brazil:0.0887030792)94:0.0570488866)87:0.0065506169,OQ835322.1_Genomoviridae_China:0.0000023441)23:0.0000020641,OQ835318.1_Genomoviridae_China:0.0000023441)16:0.0000020641,OQ835332.1_Genomoviridae_China:0.0000023441)21:0.0000020641)85:0.0046742812,((((OK148622.1_Genomoviridae_Unknown:0.0018060200,OK148618.1_Genomoviridae_Unknown:0.0008939961)27:0.0000023441,(OK148620.1_Genomoviridae_Unknown:0.0008939475,OK148616.1_Genomoviridae_Unknown:0.0008939684)18:0.0000023441)22:0.0000023441,OK148617.1_Genomoviridae_Unknown:0.0017890270)44:0.0000023441,OK148619.1_Genomoviridae_Unknown:0.0026872427)99:0.0047702869)94:0.0224709518,MW601958.1_Genomoviridae_Brazil:0.0054797100)94:0.0405724827,(OK148624.1_Genomoviridae_Unknown:0.0140807749,(NC_024690.1_Gemykrogvirus_bovas1_Germany:0.0000023441,LK931484.1_Gemykrogvirus_bovas1_Germany:0.0000023441)100:0.0145708973)100:0.0842641366)100:0.3977715810)100:0.0905162131)99:0.1632405861,(NC_076287.1_Gemykrogvirus_apime1_USA:0.0000023441,MH973741.1_Gemykrogvirus_apime1_USA:0.0000023441)100:0.5630050280)100:0.6342753821)100:0.0161075038);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Alignment/Trees/nuc_tree.treefile -m "GTR{1.8526,2.82438,1.27135,1.51353,3.12851}+F{0.245008,0.239573,0.270082,0.245337}+G4{1.13246}" --length 2899
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Alignment/Rep_Nuc_align.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Alignment/Rep_Nuc_align.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Jul 24 07:51:07 2025
+Total CPU time used: 1771.367585 seconds (0h:29m:31s)
+Total wall-clock time used: 335.7921918 seconds (0h:5m:35s)
+
