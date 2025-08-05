@@ -3,16 +3,16 @@ Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
 Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
 
 Host:    master-node (AVX512, FMA3, 502 GB RAM)
-Command: iqtree2 -s Alignment/Rep_Nuc_align.fasta -m GTR+G -B 1000 -T AUTO -ntmax 16 -pre Alignment/Trees/nuc_tree
-Seed:    863815 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Thu Jul 24 07:45:31 2025
+Command: iqtree2 -s Alignment/Rep_Nuc_align.fasta -m GTR+G -B 1000 -T AUTO -ntmax 16 -pre Alignment/Trees/nuc_tree -redo
+Seed:    560155 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug  5 02:24:11 2025
 Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
 
 Reading alignment file Alignment/Rep_Nuc_align.fasta ... Fasta format detected
-Reading fasta file: done in 0.0199618 secs using 99.23% CPU
+Reading fasta file: done in 0.00202954 secs using 55.43% CPU
 Alignment most likely contains DNA/RNA sequences
-Alignment has 215 sequences with 2899 columns, 2303 distinct patterns
-1785 parsimony-informative, 351 singleton sites, 762 constant sites
+Alignment has 45 sequences with 2034 columns, 1505 distinct patterns
+1193 parsimony-informative, 288 singleton sites, 553 constant sites
 WARNING: Some sequence names are changed as follows:
 MK433242.1_Gemycircularvirus_austro6_New_Zealand:_Canterbury -> MK433242.1_Gemycircularvirus_austro6_New_Zealand__Canterbury
 OQ792008.1_Gemycircularvirus_China:_Heilongjiang -> OQ792008.1_Gemycircularvirus_China__Heilongjiang
@@ -21,449 +21,175 @@ OQ792017.1_Genomoviridae_China:_Heilongjiang -> OQ792017.1_Genomoviridae_China__
 OQ792016.1_Genomoviridae_China:_Heilongjiang -> OQ792016.1_Genomoviridae_China__Heilongjiang
 OQ792015.1_Genomoviridae_China:_Heilongjiang -> OQ792015.1_Genomoviridae_China__Heilongjiang
 OQ792014.1_Genomoviridae_China:_Heilongjiang -> OQ792014.1_Genomoviridae_China__Heilongjiang
-OQ792013.1_Genomoviridae_China:_Heilongjiang -> OQ792013.1_Genomoviridae_China__Heilongjiang
-OQ792012.1_Genomoviridae_China:_Heilongjiang -> OQ792012.1_Genomoviridae_China__Heilongjiang
-OQ792011.1_Genomoviridae_China:_Heilongjiang -> OQ792011.1_Genomoviridae_China__Heilongjiang
-OQ792010.1_Genomoviridae_China:_Heilongjiang -> OQ792010.1_Genomoviridae_China__Heilongjiang
-OQ792009.1_Genomoviridae_China:_Heilongjiang -> OQ792009.1_Genomoviridae_China__Heilongjiang
-OQ792007.1_Genomoviridae_China:_Heilongjiang -> OQ792007.1_Genomoviridae_China__Heilongjiang
-OQ792005.1_Genomoviridae_China:_Heilongjiang -> OQ792005.1_Genomoviridae_China__Heilongjiang
-OQ792004.1_Genomoviridae_China:_Heilongjiang -> OQ792004.1_Genomoviridae_China__Heilongjiang
-OQ792003.1_Genomoviridae_China:_Heilongjiang -> OQ792003.1_Genomoviridae_China__Heilongjiang
-OQ792002.1_Genomoviridae_China:_Heilongjiang -> OQ792002.1_Genomoviridae_China__Heilongjiang
-OQ792001.1_Genomoviridae_China:_Heilongjiang -> OQ792001.1_Genomoviridae_China__Heilongjiang
-NC_076356.1_Genomoviridae_New_Zealand:_Canterbury -> NC_076356.1_Genomoviridae_New_Zealand__Canterbury
-NC_076355.1_Gemycircularvirus_austro4_New_Zealand:_Canterbury -> NC_076355.1_Gemycircularvirus_austro4_New_Zealand__Canterbury
 NC_076354.1_Gemyduguivirus_austo1_New_Zealand:_Canterbury -> NC_076354.1_Gemyduguivirus_austo1_New_Zealand__Canterbury
-NC_076353.1_Gemycircularvirus_austro2_New_Zealand:_Canterbury -> NC_076353.1_Gemycircularvirus_austro2_New_Zealand__Canterbury
-NC_076352.1_Gemycircularvirus_austro5_New_Zealand:_Canterbury -> NC_076352.1_Gemycircularvirus_austro5_New_Zealand__Canterbury
-NC_076351.1_Gemycircularvirus_austro3_New_Zealand:_Canterbury -> NC_076351.1_Gemycircularvirus_austro3_New_Zealand__Canterbury
-NC_076350.1_Gemycircularvirus_austro1_New_Zealand:_Canterbury -> NC_076350.1_Gemycircularvirus_austro1_New_Zealand__Canterbury
-MW347513.1_Genomoviridae_China:_Yangtze_River -> MW347513.1_Genomoviridae_China__Yangtze_River
-MW347512.1_Genomoviridae_China:_Yangtze_River -> MW347512.1_Genomoviridae_China__Yangtze_River
-MW347506.1_Genomoviridae_China:_Yangtze_River -> MW347506.1_Genomoviridae_China__Yangtze_River
-MW347503.1_Genomoviridae_China:_Yangtze_River -> MW347503.1_Genomoviridae_China__Yangtze_River
-MW347486.1_Genomoviridae_China:_Yangtze_River -> MW347486.1_Genomoviridae_China__Yangtze_River
-MW346696.1_Genomoviridae_China:_Yangtze_River -> MW346696.1_Genomoviridae_China__Yangtze_River
-MT214094.1_Genomoviridae_Brazil:_Leopoldo_de_Bulhoes,_GO -> MT214094.1_Genomoviridae_Brazil__Leopoldo_de_Bulhoes__GO
-MK433241.1_Gemycircularvirus_austro4_New_Zealand:_Canterbury -> MK433241.1_Gemycircularvirus_austro4_New_Zealand__Canterbury
 MK433240.1_Gemyduguivirus_austo1_New_Zealand:_Canterbury -> MK433240.1_Gemyduguivirus_austo1_New_Zealand__Canterbury
-MK433239.1_Gemycircularvirus_austro2_New_Zealand:_Canterbury -> MK433239.1_Gemycircularvirus_austro2_New_Zealand__Canterbury
-MK433238.1_Genomoviridae_New_Zealand:_Canterbury -> MK433238.1_Genomoviridae_New_Zealand__Canterbury
-MK433237.1_Gemycircularvirus_austro5_New_Zealand:_Canterbury -> MK433237.1_Gemycircularvirus_austro5_New_Zealand__Canterbury
-MK433236.1_Gemycircularvirus_austro3_New_Zealand:_Canterbury -> MK433236.1_Gemycircularvirus_austro3_New_Zealand__Canterbury
-MK433235.1_Genomoviridae_New_Zealand:_Canterbury -> MK433235.1_Genomoviridae_New_Zealand__Canterbury
-MK433234.1_Gemycircularvirus_austro1_New_Zealand:_Canterbury -> MK433234.1_Gemycircularvirus_austro1_New_Zealand__Canterbury
-NC_038481.1_Gemycircularvirus_mosqi1_USA:_San_Diego -> NC_038481.1_Gemycircularvirus_mosqi1_USA__San_Diego
-HQ335086.1_Gemycircularvirus_mosqi1_USA:_San_Diego -> HQ335086.1_Gemycircularvirus_mosqi1_USA__San_Diego
 
-                                                               Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 0.000432921 secs using 1.641e+04% CPU
-   1  b52_Rep                                                         65.44%    failed      0.01%
-   2  b54_Rep                                                         68.44%    failed      0.00%
-   3  b60_Rep                                                         64.82%    failed      0.00%
-   4  NC_076496.1_Gemycircularvirus_Vietman                           60.26%    failed      1.05%
-   5  PV793856.1_Gemycircularvirus_China                              58.61%    passed      7.39%
-   6  PV646690.1_Genomoviridae_China                                  74.65%    passed     25.94%
-   7  PV329706.1_Gemykibivirus_Unknown                                61.92%    passed     19.23%
-   8  MK433242.1_Gemycircularvirus_austro6_New_Zealand__Canterbury    60.06%    passed     41.14%
-   9  OQ792008.1_Gemycircularvirus_China__Heilongjiang                74.54%    passed     23.00%
-  10  OQ792006.1_Gemycircularvirus_China__Heilongjiang                63.88%    passed     45.30%
-  11  OQ792017.1_Genomoviridae_China__Heilongjiang                    78.58%    passed     98.47%
-  12  OQ792016.1_Genomoviridae_China__Heilongjiang                    66.06%    failed      0.00%
-  13  OQ792015.1_Genomoviridae_China__Heilongjiang                    76.20%    failed      1.02%
-  14  OQ792014.1_Genomoviridae_China__Heilongjiang                    78.58%    passed     60.01%
-  15  OQ792013.1_Genomoviridae_China__Heilongjiang                    78.58%    passed     56.46%
-  16  OQ792012.1_Genomoviridae_China__Heilongjiang                    65.85%    passed      9.62%
-  17  OQ792011.1_Genomoviridae_China__Heilongjiang                    66.78%    failed      2.99%
-  18  OQ792010.1_Genomoviridae_China__Heilongjiang                    65.95%    failed      0.09%
-  19  OQ792009.1_Genomoviridae_China__Heilongjiang                    78.58%    passed     98.47%
-  20  OQ792007.1_Genomoviridae_China__Heilongjiang                    76.20%    failed      0.80%
-  21  OQ792005.1_Genomoviridae_China__Heilongjiang                    76.20%    failed      0.80%
-  22  OQ792004.1_Genomoviridae_China__Heilongjiang                    78.79%    passed     30.21%
-  23  OQ792003.1_Genomoviridae_China__Heilongjiang                    66.06%    failed      0.00%
-  24  OQ792002.1_Genomoviridae_China__Heilongjiang                    76.20%    failed      0.80%
-  25  OQ792001.1_Genomoviridae_China__Heilongjiang                    74.54%    passed     23.00%
-  26  OQ835332.1_Genomoviridae_China                                  78.72%    passed     56.75%
-  27  OQ835331.1_Genomoviridae_China                                  76.20%    failed      0.80%
-  28  OQ835330.1_Genomoviridae_China                                  76.20%    failed      0.80%
-  29  OQ835329.1_Genomoviridae_China                                  78.58%    passed     98.47%
-  30  OQ835328.1_Genomoviridae_China                                  76.20%    failed      0.80%
-  31  OQ835327.1_Genomoviridae_China                                  78.72%    failed      2.28%
-  32  OQ835326.1_Gemycircularvirus_China                              74.54%    passed     23.00%
-  33  OQ835325.1_Genomoviridae_China                                  65.85%    failed      0.10%
-  34  OQ835324.1_Genomoviridae_China                                  65.85%    failed      0.10%
-  35  OQ835323.1_Genomoviridae_China                                  79.54%    passed     95.32%
-  36  OQ835322.1_Genomoviridae_China                                  78.58%    passed     60.01%
-  37  OQ835321.1_Genomoviridae_China                                  76.20%    failed      0.80%
-  38  OQ835320.1_Genomoviridae_China                                  77.65%    failed      0.51%
-  39  OQ835319.1_Genomoviridae_China                                  79.51%    passed     95.30%
-  40  OQ835318.1_Genomoviridae_China                                  78.72%    passed     56.75%
-  41  OQ835317.1_Genomoviridae_China                                  76.20%    failed      0.38%
-  42  OQ779180.1_Genomoviridae_China                                  79.61%    passed     63.73%
-  43  OQ779179.1_Genomoviridae_China                                  77.44%    passed     32.97%
-  44  OQ779178.1_Genomoviridae_China                                  73.92%    passed     28.63%
-  45  OQ779177.1_Genomoviridae_China                                  62.75%    passed      5.37%
-  46  OQ779175.1_Genomoviridae_China                                  80.96%    passed     43.36%
-  47  OQ779174.1_Genomoviridae_China                                  77.65%    failed      0.51%
-  48  OQ779173.1_Genomoviridae_China                                  78.58%    passed     98.47%
-  49  OQ779172.1_Genomoviridae_China                                  78.58%    passed     98.47%
-  50  OQ779171.1_Genomoviridae_China                                  77.65%    failed      0.51%
-  51  OQ779170.1_Genomoviridae_China                                  78.58%    passed     98.47%
-  52  OQ779169.1_Genomoviridae_China                                  74.54%    passed     23.00%
-  53  OQ779168.1_Genomoviridae_China                                  77.65%    failed      0.51%
-  54  OQ779167.1_Genomoviridae_China                                  76.20%    failed      0.80%
-  55  OQ779166.1_Genomoviridae_China                                  78.58%    passed     98.47%
-  56  NC_076470.1_Gemycircularvirus_citas1_Tunisia                    60.54%    passed     35.79%
-  57  NC_076469.1_Gemykolovirus_citas1_Tunisia                        60.06%    failed      4.32%
-  58  NC_076408.1_Gemykibivirus_planta2_USA                           61.50%    passed      9.07%
-  59  NC_076407.1_Gemygorvirus_opunt1_France                          62.19%    passed     85.57%
-  60  NC_076406.1_Gemycircularvirus_opunt1_France                     60.37%    passed     21.07%
-  61  NC_076378.1_Gemycircularvirus_gopha1_USA                        62.06%    passed     11.55%
-  62  NC_076377.1_Gemykolovirus_gopha2_USA                            59.47%    passed     51.59%
-  63  NC_076376.1_Gemycircularvirus_gopha2_USA                        60.26%    passed     15.19%
-  64  NC_076375.1_Gemykolovirus_gopha1_USA                            59.16%    passed     55.95%
-  65  NC_076366.1_Gemykibivirus_hydro3_Brazil                         60.81%    passed     36.04%
-  66  NC_076365.1_Gemykroznavirus_hydro1_Brazil                       62.47%    failed      0.15%
-  67  NC_076364.1_Gemyduguivirus_hydro2_Brazil                        59.95%    passed     64.23%
-  68  NC_076363.1_Gemygorvirus_hydro1_Brazil                          60.30%    passed     99.89%
-  69  NC_076362.1_Gemyduguivirus_hydro3_Brazil                        57.78%    failed      4.39%
-  70  NC_076361.1_Gemykibivirus_hydro1_Brazil                         62.99%    passed     28.20%
-  71  NC_076360.1_Gemyduguivirus_hydro1_Brazil                        59.05%    passed     13.72%
-  72  NC_076359.1_Gemykibivirus_hydro2_Brazil                         61.12%    passed      5.67%
-  73  NC_076358.1_Gemycircularvirus_hydro1_Brazil                     59.43%    failed      1.73%
-  74  NC_076356.1_Genomoviridae_New_Zealand__Canterbury               60.06%    passed     41.14%
-  75  NC_076355.1_Gemycircularvirus_austro4_New_Zealand__Canterbury   60.71%    passed     14.74%
-  76  NC_076354.1_Gemyduguivirus_austo1_New_Zealand__Canterbury       62.40%    passed     13.81%
-  77  NC_076353.1_Gemycircularvirus_austro2_New_Zealand__Canterbury   61.16%    failed      4.41%
-  78  NC_076352.1_Gemycircularvirus_austro5_New_Zealand__Canterbury   60.33%    failed      0.13%
-  79  NC_076351.1_Gemycircularvirus_austro3_New_Zealand__Canterbury   59.78%    passed      7.73%
-  80  NC_076350.1_Gemycircularvirus_austro1_New_Zealand__Canterbury   61.99%    failed      1.45%
-  81  NC_076287.1_Gemykrogvirus_apime1_USA                            60.12%    failed      0.03%
-  82  NC_075325.1_Gemycircularvirus_China                             59.09%    passed     89.53%
-  83  NC_075323.1_Gemycircularvirus_Hungary                           61.50%    passed     56.04%
-  84  OQ633436.1_Genomoviridae_Unknown                                65.23%    passed     50.61%
-  85  OL704847.1_Gemykibivirus_Argentina                              61.33%    passed     16.75%
-  86  OL704846.1_Gemykibivirus_Argentina                              67.40%    passed     11.52%
-  87  OL704845.1_Gemygorvirus_Argentina                               56.30%    passed     43.44%
-  88  OL704844.1_Gemycircularvirus_Argentina                          61.23%    passed     74.68%
-  89  OL704843.1_Gemykibivirus_Argentina                              55.88%    failed      2.31%
-  90  OL704842.1_Gemykibivirus_Argentina                              67.20%    passed     10.83%
-  91  OL704841.1_Gemykibivirus_Argentina                              62.88%    passed     18.52%
-  92  OL704840.1_Gemycircularvirus_Argentina                          58.50%    passed     11.33%
-  93  OL704839.1_Gemycircularvirus_Argentina                          56.02%    passed      8.66%
-  94  OL704838.1_Gemycircularvirus_Argentina                          63.88%    passed     33.67%
-  95  OL704837.1_Gemykibivirus_Argentina                              68.64%    passed     68.01%
-  96  OK148624.1_Genomoviridae_Unknown                                60.92%    failed      0.03%
-  97  OK148623.1_Genomoviridae_Unknown                                62.95%    passed      9.74%
-  98  OK148622.1_Genomoviridae_Unknown                                60.99%    passed     17.18%
-  99  OK148621.1_Genomoviridae_Unknown                                62.95%    passed     13.98%
- 100  OK148620.1_Genomoviridae_Unknown                                60.68%    passed     13.83%
- 101  OK148619.1_Genomoviridae_Unknown                                60.68%    passed     18.01%
- 102  OK148618.1_Genomoviridae_Unknown                                60.68%    passed     14.45%
- 103  OK148617.1_Genomoviridae_Unknown                                60.64%    passed     15.91%
- 104  OK148616.1_Genomoviridae_Unknown                                60.68%    passed     17.24%
- 105  MW436633.1_Genomoviridae_Brazil                                 78.82%    passed     52.62%
- 106  MW436632.1_Genomoviridae_Brazil                                 80.23%    passed     29.03%
- 107  MT766311.1_Genomoviridae_Australia                              59.26%    passed      5.72%
- 108  MT766310.1_Genomoviridae_Australia                              61.33%    passed     38.13%
- 109  MW601958.1_Genomoviridae_Brazil                                 60.57%    passed      5.97%
- 110  MW601957.1_Genomoviridae_Brazil                                 60.75%    failed      1.81%
- 111  MW601956.1_Genomoviridae_Brazil                                 57.47%    passed     25.85%
- 112  MW828677.1_Genomoviridae_Germany                                75.68%    passed     19.34%
- 113  MW562322.1_Genomoviridae_Saint_Vincent_and_the_Grenadines       60.33%    passed     16.32%
- 114  MW562320.1_Genomoviridae_Saint_Vincent_and_the_Grenadines       60.09%    failed      0.33%
- 115  MW562318.1_Genomoviridae_Saint_Vincent_and_the_Grenadines       60.61%    passed     20.09%
- 116  MW347513.1_Genomoviridae_China__Yangtze_River                   83.82%    passed     44.43%
- 117  MW347512.1_Genomoviridae_China__Yangtze_River                   82.34%    passed     43.42%
- 118  MW347506.1_Genomoviridae_China__Yangtze_River                   78.68%    passed     29.81%
- 119  MW347503.1_Genomoviridae_China__Yangtze_River                   82.89%    passed     52.02%
- 120  MW347486.1_Genomoviridae_China__Yangtze_River                   76.10%    passed     70.50%
- 121  MW346696.1_Genomoviridae_China__Yangtze_River                   80.61%    passed     39.54%
- 122  MK922280.1_Genomoviridae_Brazil                                 60.88%    failed      0.00%
- 123  MK922279.1_Genomoviridae_Brazil                                 57.88%    failed      0.00%
- 124  MT214094.1_Genomoviridae_Brazil__Leopoldo_de_Bulhoes__GO        59.26%    passed     17.82%
- 125  MK947374.1_Genomoviridae_USA                                    61.95%    passed     87.31%
- 126  MN708485.1_Gemycircularvirus_citas1_Tunisia                     60.54%    passed     35.79%
- 127  MN708484.1_Citrus_Tunisia_genomovirus_1_Tunisia                 60.06%    failed      4.62%
- 128  MN708483.1_Citrus_Tunisia_genomovirus_1_Tunisia                 60.06%    failed      4.03%
- 129  MN708482.1_Gemykolovirus_citas1_Tunisia                         60.06%    failed      4.32%
- 130  MK947376.1_Gemykibivirus_planta2_USA                            61.50%    passed      9.07%
- 131  MK947375.1_Genomoviridae_USA                                    61.85%    passed     76.63%
- 132  MK947373.1_Gemygorvirus_opunt1_France                           62.19%    passed     85.57%
- 133  MK947372.1_Gemycircularvirus_opunt1_France                      60.37%    passed     21.07%
- 134  NC_040379.1_Gemycircularvirus_China                             60.06%    passed     97.35%
- 135  MK433241.1_Gemycircularvirus_austro4_New_Zealand__Canterbury    60.71%    passed     14.74%
- 136  MK433240.1_Gemyduguivirus_austo1_New_Zealand__Canterbury        62.40%    passed     13.81%
- 137  MK433239.1_Gemycircularvirus_austro2_New_Zealand__Canterbury    61.16%    failed      4.41%
- 138  MK433238.1_Genomoviridae_New_Zealand__Canterbury                59.99%    passed     24.87%
- 139  MK433237.1_Gemycircularvirus_austro5_New_Zealand__Canterbury    60.33%    failed      0.13%
- 140  MK433236.1_Gemycircularvirus_austro3_New_Zealand__Canterbury    59.78%    passed      7.73%
- 141  MK433235.1_Genomoviridae_New_Zealand__Canterbury                62.81%    passed     22.66%
- 142  MK433234.1_Gemycircularvirus_austro1_New_Zealand__Canterbury    61.99%    failed      1.45%
- 143  MK513443.1_Gemykibivirus_humas2_Brazil                          61.95%    passed     18.28%
- 144  MK513442.1_Gemykibivirus_humas1_Brazil                          62.54%    passed     99.81%
- 145  MK570223.1_Genomoviridae_USA                                    60.43%    failed      0.11%
- 146  MK570222.1_Genomoviridae_USA                                    62.02%    passed     14.06%
- 147  MK570221.1_Genomoviridae_USA                                    60.88%    passed     46.53%
- 148  MK570220.1_Genomoviridae_USA                                    61.54%    passed     33.67%
- 149  MK570219.1_Genomoviridae_USA                                    61.54%    passed     39.63%
- 150  MK570218.1_Genomoviridae_USA                                    60.75%    passed     64.24%
- 151  MK570217.1_Gemycircularvirus_gopha1_USA                         62.06%    passed     11.55%
- 152  MK570216.1_Genomoviridae_USA                                    61.16%    passed     89.46%
- 153  MK570215.1_Genomoviridae_USA                                    60.99%    passed     95.33%
- 154  MK570214.1_Genomoviridae_USA                                    60.95%    passed     82.65%
- 155  MK570213.1_Gemykolovirus_gopha2_USA                             59.47%    passed     51.59%
- 156  MK570212.1_Genomoviridae_USA                                    60.75%    passed     19.21%
- 157  MK570211.1_Genomoviridae_USA                                    61.71%    passed     53.24%
- 158  MK570210.1_Gemycircularvirus_gopha2_USA                         60.26%    passed     15.19%
- 159  MK570209.1_Gemykolovirus_gopha1_USA                             59.16%    passed     55.95%
- 160  MK570208.1_Genomoviridae_USA                                    61.95%    passed     66.82%
- 161  MK570207.1_Genomoviridae_USA                                    61.95%    passed     79.43%
- 162  MK570206.1_Genomoviridae_USA                                    61.85%    passed     67.72%
- 163  MK570205.1_Genomoviridae_USA                                    61.71%    passed     78.39%
- 164  MK570204.1_Genomoviridae_USA                                    60.78%    failed      3.61%
- 165  MK570203.1_Genomoviridae_USA                                    61.85%    passed     50.18%
- 166  MK570202.1_Genomoviridae_USA                                    60.99%    passed     86.60%
- 167  MK570201.1_Genomoviridae_USA                                    61.85%    passed     52.66%
- 168  MK483085.1_Genomoviridae_Brazil                                 61.33%    passed     23.84%
- 169  MK483084.1_Gemykibivirus_hydro3_Brazil                          60.81%    passed     36.04%
- 170  MK483083.1_Genomoviridae_Brazil                                 60.88%    passed      5.27%
- 171  MK483082.1_Gemykroznavirus_hydro1_Brazil                        62.47%    failed      0.15%
- 172  MK483081.1_Genomoviridae_Brazil                                 59.26%    passed      8.66%
- 173  MK483080.1_Gemyduguivirus_hydro2_Brazil                         59.95%    passed     64.23%
- 174  MK483079.1_Genomoviridae_Brazil                                 62.92%    passed     67.82%
- 175  MK483078.1_Gemygorvirus_hydro1_Brazil                           60.30%    passed     99.89%
- 176  MK483077.1_Gemyduguivirus_hydro3_Brazil                         57.78%    failed      4.39%
- 177  MK483076.1_Gemykibivirus_hydro1_Brazil                          62.99%    passed     28.20%
- 178  MK483075.1_Gemyduguivirus_hydro1_Brazil                         59.05%    passed     13.72%
- 179  MK483074.1_Gemykibivirus_hydro2_Brazil                          61.12%    failed      4.04%
- 180  MK483073.1_Gemykibivirus_hydro2_Brazil                          61.12%    passed      5.67%
- 181  MK483072.1_Gemycircularvirus_hydro1_Brazil                      59.43%    failed      1.73%
- 182  MH973741.1_Gemykrogvirus_apime1_USA                             60.12%    failed      0.03%
- 183  MH973740.1_Genomoviridae_USA                                    62.37%    passed     66.59%
- 184  MH973739.1_Genomoviridae_USA                                    61.95%    passed     78.79%
- 185  MH973738.1_Genomoviridae_USA                                    61.95%    passed     80.70%
- 186  MH973737.1_Genomoviridae_USA                                    61.95%    passed     82.48%
- 187  MH782432.1_Gemycircularvirus_China                              64.40%    failed      0.00%
- 188  MH782431.1_Genomoviridae_China                                  72.58%    failed      0.00%
- 189  MH782430.1_Genomoviridae_China                                  71.44%    failed      0.02%
- 190  NC_028459.1_Gemyvongvirus_humas1_Germany                        60.09%    failed      1.60%
- 191  KP974694.1_Gemykibivirus_humas1_Germany                         62.26%    passed     76.32%
- 192  KP974693.1_Gemyvongvirus_humas1_Germany                         60.09%    failed      1.60%
- 193  NC_038481.1_Gemycircularvirus_mosqi1_USA__San_Diego             77.03%    passed     38.35%
- 194  NC_035139.1_Gemykibivirus_bemta1_Brazil                         60.81%    passed     17.00%
- 195  NC_035138.1_Gemycircularvirus_bemta1_Brazil                     60.61%    passed     11.24%
- 196  NC_035137.1_Gemyduguivirus_bemta1_Brazil                        59.85%    passed     55.73%
- 197  NC_030448.1_Gemykibivirus_humas5_France                         64.19%    passed     15.62%
- 198  NC_030447.1_Gemycircularvirus_France                            75.78%    passed     88.64%
- 199  NC_024691.1_Gemykibivirus_humas1_Germany                        62.85%    passed     89.48%
- 200  NC_024690.1_Gemykrogvirus_bovas1_Germany                        57.09%    failed      0.08%
- 201  NC_024689.1_Gemykibivirus_bovas1_Germany                        62.54%    failed      1.16%
- 202  KY302867.1_Gemycircularvirus_Hungary                            61.50%    passed     47.96%
- 203  KY302866.1_Gemycircularvirus_Hungary                            61.50%    passed     56.04%
- 204  KY312558.1_Gemycircularvirus_China                              59.09%    passed     89.53%
- 205  KY312557.1_Gemycircularvirus_China                              60.06%    passed     97.35%
- 206  KY230614.1_Gemycircularvirus_bemta1_Brazil                      60.61%    passed     11.24%
- 207  KY230613.1_Gemyduguivirus_bemta1_Brazil                         59.85%    passed     55.73%
- 208  KY230625.1_Gemykibivirus_bemta1_Brazil                          60.81%    passed     17.00%
- 209  KU343137.1_Gemykibivirus_humas5_France                          64.19%    passed     15.62%
- 210  KU343136.1_Gemycircularvirus_France                             75.78%    passed     88.64%
- 211  LK931485.1_Gemykibivirus_humas1_Germany                         62.85%    passed     89.48%
- 212  LK931484.1_Gemykrogvirus_bovas1_Germany                         57.09%    failed      0.08%
- 213  LK931483.1_Gemykibivirus_bovas1_Germany                         62.54%    failed      1.16%
- 214  HQ335086.1_Gemycircularvirus_mosqi1_USA__San_Diego              77.03%    passed     38.35%
- 215  Geminivirus_Rep_ACMV                                            62.85%    failed      0.00%
-WARNING: 215 sequences contain more than 50% gaps/ambiguity
-****  TOTAL                                                           65.39%  62 sequences failed composition chi2 test (p-value<5%; df=3)
-NOTE: NC_076356.1_Genomoviridae_New_Zealand__Canterbury is identical to MK433242.1_Gemycircularvirus_austro6_New_Zealand__Canterbury but kept for subsequent analysis
-NOTE: OQ792001.1_Genomoviridae_China__Heilongjiang is identical to OQ792008.1_Gemycircularvirus_China__Heilongjiang but kept for subsequent analysis
-NOTE: OQ792009.1_Genomoviridae_China__Heilongjiang is identical to OQ792017.1_Genomoviridae_China__Heilongjiang but kept for subsequent analysis
-NOTE: OQ792003.1_Genomoviridae_China__Heilongjiang is identical to OQ792016.1_Genomoviridae_China__Heilongjiang but kept for subsequent analysis
-NOTE: OQ835322.1_Genomoviridae_China is identical to OQ792014.1_Genomoviridae_China__Heilongjiang but kept for subsequent analysis
-NOTE: OQ792005.1_Genomoviridae_China__Heilongjiang is identical to OQ792007.1_Genomoviridae_China__Heilongjiang but kept for subsequent analysis
-NOTE: OQ835318.1_Genomoviridae_China is identical to OQ835332.1_Genomoviridae_China but kept for subsequent analysis
-NOTE: OQ835324.1_Genomoviridae_China is identical to OQ835325.1_Genomoviridae_China but kept for subsequent analysis
-NOTE: OQ779174.1_Genomoviridae_China is identical to OQ835320.1_Genomoviridae_China but kept for subsequent analysis
-NOTE: MN708485.1_Gemycircularvirus_citas1_Tunisia is identical to NC_076470.1_Gemycircularvirus_citas1_Tunisia but kept for subsequent analysis
+                                                              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0112354 secs using 1679% CPU
+   1  b52_Rep                                                        50.74%    failed      0.10%
+   2  b54_Rep                                                        55.01%    failed      0.05%
+   3  b60_Rep                                                        49.85%    failed      0.02%
+   4  NC_076496.1_Gemycircularvirus_Vietman                          43.36%    passed      7.09%
+   5  PV793856.1_Gemycircularvirus_China                             41.00%    failed      1.66%
+   6  MK433242.1_Gemycircularvirus_austro6_New_Zealand__Canterbury   43.07%    passed     29.37%
+   7  OQ792008.1_Gemycircularvirus_China__Heilongjiang               63.72%    passed     11.62%
+   8  OQ792006.1_Gemycircularvirus_China__Heilongjiang               48.53%    passed     16.06%
+   9  PV646690.1_Genomoviridae_China                                 63.86%    passed      9.84%
+  10  OQ792017.1_Genomoviridae_China__Heilongjiang                   69.47%    passed     89.36%
+  11  OQ792016.1_Genomoviridae_China__Heilongjiang                   51.62%    failed      0.01%
+  12  OQ792015.1_Genomoviridae_China__Heilongjiang                   66.08%    failed      0.41%
+  13  OQ792014.1_Genomoviridae_China__Heilongjiang                   69.47%    passed     79.06%
+  14  PV329706.1_Gemykibivirus_Unknown                               45.72%    passed     49.16%
+  15  NC_076408.1_Gemykibivirus_planta2_USA                          45.13%    passed     30.38%
+  16  NC_076366.1_Gemykibivirus_hydro3_Brazil                        44.15%    passed     11.98%
+  17  NC_076361.1_Gemykibivirus_hydro1_Brazil                        47.25%    passed      9.04%
+  18  NC_076359.1_Gemykibivirus_hydro2_Brazil                        44.59%    failed      1.22%
+  19  NC_076469.1_Gemykolovirus_citas1_Tunisia                       43.07%    failed      0.67%
+  20  NC_076377.1_Gemykolovirus_gopha2_USA                           42.23%    passed     23.52%
+  21  NC_076375.1_Gemykolovirus_gopha1_USA                           41.79%    passed     21.70%
+  22  MN708482.1_Gemykolovirus_citas1_Tunisia                        43.07%    failed      0.67%
+  23  MK570213.1_Gemykolovirus_gopha2_USA                            42.23%    passed     23.52%
+  24  NC_076407.1_Gemygorvirus_opunt1_France                         46.12%    passed     58.28%
+  25  NC_076363.1_Gemygorvirus_hydro1_Brazil                         43.41%    passed     92.82%
+  26  OL704845.1_Gemygorvirus_Argentina                              37.71%    passed     56.60%
+  27  MK947373.1_Gemygorvirus_opunt1_France                          46.12%    passed     58.28%
+  28  MK483078.1_Gemygorvirus_hydro1_Brazil                          43.41%    passed     92.82%
+  29  NC_076365.1_Gemykroznavirus_hydro1_Brazil                      46.51%    failed      0.24%
+  30  MK483082.1_Gemykroznavirus_hydro1_Brazil                       46.51%    failed      0.24%
+  31  NC_076364.1_Gemyduguivirus_hydro2_Brazil                       42.92%    passed     47.78%
+  32  NC_076362.1_Gemyduguivirus_hydro3_Brazil                       39.82%    failed      1.40%
+  33  NC_076360.1_Gemyduguivirus_hydro1_Brazil                       41.64%    passed      8.61%
+  34  NC_076354.1_Gemyduguivirus_austo1_New_Zealand__Canterbury      46.41%    passed     40.97%
+  35  MK433240.1_Gemyduguivirus_austo1_New_Zealand__Canterbury       46.41%    passed     40.97%
+  36  NC_076287.1_Gemykrogvirus_apime1_USA                           43.17%    failed      0.26%
+  37  MH973741.1_Gemykrogvirus_apime1_USA                            43.17%    failed      0.26%
+  38  NC_024690.1_Gemykrogvirus_bovas1_Germany                       38.84%    failed      1.08%
+  39  LK931484.1_Gemykrogvirus_bovas1_Germany                        38.84%    failed      1.08%
+  40  MN708484.1_Citrus_Tunisia_genomovirus_1_Tunisia                43.07%    failed      0.73%
+  41  MN708483.1_Citrus_Tunisia_genomovirus_1_Tunisia                43.07%    failed      0.62%
+  42  NC_028459.1_Gemyvongvirus_humas1_Germany                       43.12%    passed      8.46%
+  43  KP974693.1_Gemyvongvirus_humas1_Germany                        43.12%    passed      8.46%
+  44  Geminivirus_Rep_ACMV                                           47.05%    failed      0.00%
+  45  MN765193.1_Genonmovirus_Tanzania                               55.60%    failed      2.49%
+WARNING: 9 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                          47.13%  20 sequences failed composition chi2 test (p-value<5%; df=3)
 NOTE: MN708482.1_Gemykolovirus_citas1_Tunisia is identical to NC_076469.1_Gemykolovirus_citas1_Tunisia but kept for subsequent analysis
-NOTE: MK947376.1_Gemykibivirus_planta2_USA is identical to NC_076408.1_Gemykibivirus_planta2_USA but kept for subsequent analysis
-NOTE: MK947373.1_Gemygorvirus_opunt1_France is identical to NC_076407.1_Gemygorvirus_opunt1_France but kept for subsequent analysis
-NOTE: MK947372.1_Gemycircularvirus_opunt1_France is identical to NC_076406.1_Gemycircularvirus_opunt1_France but kept for subsequent analysis
-NOTE: MK570217.1_Gemycircularvirus_gopha1_USA is identical to NC_076378.1_Gemycircularvirus_gopha1_USA but kept for subsequent analysis
 NOTE: MK570213.1_Gemykolovirus_gopha2_USA is identical to NC_076377.1_Gemykolovirus_gopha2_USA but kept for subsequent analysis
-NOTE: MK570210.1_Gemycircularvirus_gopha2_USA is identical to NC_076376.1_Gemycircularvirus_gopha2_USA but kept for subsequent analysis
-NOTE: MK570209.1_Gemykolovirus_gopha1_USA is identical to NC_076375.1_Gemykolovirus_gopha1_USA but kept for subsequent analysis
-NOTE: MK483084.1_Gemykibivirus_hydro3_Brazil is identical to NC_076366.1_Gemykibivirus_hydro3_Brazil but kept for subsequent analysis
-NOTE: MK483082.1_Gemykroznavirus_hydro1_Brazil is identical to NC_076365.1_Gemykroznavirus_hydro1_Brazil but kept for subsequent analysis
-NOTE: MK483080.1_Gemyduguivirus_hydro2_Brazil is identical to NC_076364.1_Gemyduguivirus_hydro2_Brazil but kept for subsequent analysis
+NOTE: MK947373.1_Gemygorvirus_opunt1_France is identical to NC_076407.1_Gemygorvirus_opunt1_France but kept for subsequent analysis
 NOTE: MK483078.1_Gemygorvirus_hydro1_Brazil is identical to NC_076363.1_Gemygorvirus_hydro1_Brazil but kept for subsequent analysis
-NOTE: MK483077.1_Gemyduguivirus_hydro3_Brazil is identical to NC_076362.1_Gemyduguivirus_hydro3_Brazil but kept for subsequent analysis
-NOTE: MK483076.1_Gemykibivirus_hydro1_Brazil is identical to NC_076361.1_Gemykibivirus_hydro1_Brazil but kept for subsequent analysis
-NOTE: MK483075.1_Gemyduguivirus_hydro1_Brazil is identical to NC_076360.1_Gemyduguivirus_hydro1_Brazil but kept for subsequent analysis
-NOTE: MK483073.1_Gemykibivirus_hydro2_Brazil is identical to NC_076359.1_Gemykibivirus_hydro2_Brazil but kept for subsequent analysis
-NOTE: MK483072.1_Gemycircularvirus_hydro1_Brazil is identical to NC_076358.1_Gemycircularvirus_hydro1_Brazil but kept for subsequent analysis
-NOTE: MK433241.1_Gemycircularvirus_austro4_New_Zealand__Canterbury is identical to NC_076355.1_Gemycircularvirus_austro4_New_Zealand__Canterbury but kept for subsequent analysis
+NOTE: MK483082.1_Gemykroznavirus_hydro1_Brazil is identical to NC_076365.1_Gemykroznavirus_hydro1_Brazil but kept for subsequent analysis
 NOTE: MK433240.1_Gemyduguivirus_austo1_New_Zealand__Canterbury is identical to NC_076354.1_Gemyduguivirus_austo1_New_Zealand__Canterbury but kept for subsequent analysis
-NOTE: MK433239.1_Gemycircularvirus_austro2_New_Zealand__Canterbury is identical to NC_076353.1_Gemycircularvirus_austro2_New_Zealand__Canterbury but kept for subsequent analysis
-NOTE: MK433237.1_Gemycircularvirus_austro5_New_Zealand__Canterbury is identical to NC_076352.1_Gemycircularvirus_austro5_New_Zealand__Canterbury but kept for subsequent analysis
-NOTE: MK433236.1_Gemycircularvirus_austro3_New_Zealand__Canterbury is identical to NC_076351.1_Gemycircularvirus_austro3_New_Zealand__Canterbury but kept for subsequent analysis
-NOTE: MK433234.1_Gemycircularvirus_austro1_New_Zealand__Canterbury is identical to NC_076350.1_Gemycircularvirus_austro1_New_Zealand__Canterbury but kept for subsequent analysis
 NOTE: MH973741.1_Gemykrogvirus_apime1_USA is identical to NC_076287.1_Gemykrogvirus_apime1_USA but kept for subsequent analysis
-NOTE: KY312558.1_Gemycircularvirus_China is identical to NC_075325.1_Gemycircularvirus_China but kept for subsequent analysis
-NOTE: KY302866.1_Gemycircularvirus_Hungary is identical to NC_075323.1_Gemycircularvirus_Hungary but kept for subsequent analysis
-NOTE: KY312557.1_Gemycircularvirus_China is identical to NC_040379.1_Gemycircularvirus_China but kept for subsequent analysis
-NOTE: KP974693.1_Gemyvongvirus_humas1_Germany is identical to NC_028459.1_Gemyvongvirus_humas1_Germany but kept for subsequent analysis
-NOTE: HQ335086.1_Gemycircularvirus_mosqi1_USA__San_Diego is identical to NC_038481.1_Gemycircularvirus_mosqi1_USA__San_Diego but kept for subsequent analysis
-NOTE: KY230625.1_Gemykibivirus_bemta1_Brazil is identical to NC_035139.1_Gemykibivirus_bemta1_Brazil but kept for subsequent analysis
-NOTE: KY230614.1_Gemycircularvirus_bemta1_Brazil is identical to NC_035138.1_Gemycircularvirus_bemta1_Brazil but kept for subsequent analysis
-NOTE: KY230613.1_Gemyduguivirus_bemta1_Brazil is identical to NC_035137.1_Gemyduguivirus_bemta1_Brazil but kept for subsequent analysis
-NOTE: KU343137.1_Gemykibivirus_humas5_France is identical to NC_030448.1_Gemykibivirus_humas5_France but kept for subsequent analysis
-NOTE: KU343136.1_Gemycircularvirus_France is identical to NC_030447.1_Gemycircularvirus_France but kept for subsequent analysis
-NOTE: LK931485.1_Gemykibivirus_humas1_Germany is identical to NC_024691.1_Gemykibivirus_humas1_Germany but kept for subsequent analysis
 NOTE: LK931484.1_Gemykrogvirus_bovas1_Germany is identical to NC_024690.1_Gemykrogvirus_bovas1_Germany but kept for subsequent analysis
-NOTE: LK931483.1_Gemykibivirus_bovas1_Germany is identical to NC_024689.1_Gemykibivirus_bovas1_Germany but kept for subsequent analysis
-NOTE: 14 identical sequences (see below) will be ignored for subsequent analysis
-NOTE: OQ835326.1_Gemycircularvirus_China (identical to OQ792008.1_Gemycircularvirus_China__Heilongjiang) is ignored but added at the end
-NOTE: OQ835329.1_Genomoviridae_China (identical to OQ792017.1_Genomoviridae_China__Heilongjiang) is ignored but added at the end
-NOTE: OQ779173.1_Genomoviridae_China (identical to OQ792017.1_Genomoviridae_China__Heilongjiang) is ignored but added at the end
-NOTE: OQ779172.1_Genomoviridae_China (identical to OQ792017.1_Genomoviridae_China__Heilongjiang) is ignored but added at the end
-NOTE: OQ779170.1_Genomoviridae_China (identical to OQ792017.1_Genomoviridae_China__Heilongjiang) is ignored but added at the end
-NOTE: OQ779166.1_Genomoviridae_China (identical to OQ792017.1_Genomoviridae_China__Heilongjiang) is ignored but added at the end
-NOTE: OQ792002.1_Genomoviridae_China__Heilongjiang (identical to OQ792007.1_Genomoviridae_China__Heilongjiang) is ignored but added at the end
-NOTE: OQ835331.1_Genomoviridae_China (identical to OQ792007.1_Genomoviridae_China__Heilongjiang) is ignored but added at the end
-NOTE: OQ835330.1_Genomoviridae_China (identical to OQ792007.1_Genomoviridae_China__Heilongjiang) is ignored but added at the end
-NOTE: OQ835328.1_Genomoviridae_China (identical to OQ792007.1_Genomoviridae_China__Heilongjiang) is ignored but added at the end
-NOTE: OQ835321.1_Genomoviridae_China (identical to OQ792007.1_Genomoviridae_China__Heilongjiang) is ignored but added at the end
-NOTE: OQ779167.1_Genomoviridae_China (identical to OQ792007.1_Genomoviridae_China__Heilongjiang) is ignored but added at the end
-NOTE: OQ779171.1_Genomoviridae_China (identical to OQ835320.1_Genomoviridae_China) is ignored but added at the end
-NOTE: OQ779168.1_Genomoviridae_China (identical to OQ835320.1_Genomoviridae_China) is ignored but added at the end
-Alignment was printed to Alignment/Trees/nuc_tree.uniqueseq.phy
+NOTE: KP974693.1_Gemyvongvirus_humas1_Germany is identical to NC_028459.1_Gemyvongvirus_humas1_Germany but kept for subsequent analysis
 
-For your convenience alignment with unique sequences printed to Alignment/Trees/nuc_tree.uniqueseq.phy
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 560155)...
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.092 seconds
-Generating 1000 samples for ultrafast bootstrap (seed: 863815)...
-
-NOTE: 68 MB RAM (0 GB) is required!
+NOTE: 14 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 16 CPU cores
 Increase to 10 rounds for branch lengths
-14 trees examined
-Threads: 1 / Time: 16.751 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -198444
-Threads: 2 / Time: 9.603 sec / Speedup: 1.744 / Efficiency: 87% / LogL: -198444
-Threads: 3 / Time: 7.623 sec / Speedup: 2.197 / Efficiency: 73% / LogL: -198444
-Threads: 4 / Time: 6.172 sec / Speedup: 2.714 / Efficiency: 68% / LogL: -198444
-Threads: 5 / Time: 5.791 sec / Speedup: 2.893 / Efficiency: 58% / LogL: -198444
-Threads: 6 / Time: 4.926 sec / Speedup: 3.400 / Efficiency: 57% / LogL: -198444
-Threads: 7 / Time: 4.947 sec / Speedup: 3.386 / Efficiency: 48% / LogL: -198444
+49 trees examined
+Threads: 1 / Time: 16.216 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -50114
+Threads: 2 / Time: 12.073 sec / Speedup: 1.343 / Efficiency: 67% / LogL: -50114
+Threads: 3 / Time: 5.098 sec / Speedup: 3.181 / Efficiency: 106% / LogL: -50114
+Threads: 4 / Time: 4.111 sec / Speedup: 3.944 / Efficiency: 99% / LogL: -50114
+Threads: 5 / Time: 4.097 sec / Speedup: 3.958 / Efficiency: 79% / LogL: -50114
+Threads: 6 / Time: 3.729 sec / Speedup: 4.349 / Efficiency: 72% / LogL: -50114
+Threads: 7 / Time: 3.581 sec / Speedup: 4.528 / Efficiency: 65% / LogL: -50114
+Threads: 8 / Time: 3.655 sec / Speedup: 4.437 / Efficiency: 55% / LogL: -50114
+Threads: 9 / Time: 3.712 sec / Speedup: 4.369 / Efficiency: 49% / LogL: -50114
 BEST NUMBER OF THREADS: 6
 
 Estimate model parameters (epsilon = 0.100)
-1. Initial log-likelihood: -100068.950
-2. Current log-likelihood: -93310.465
-3. Current log-likelihood: -93114.304
-4. Current log-likelihood: -93105.863
-5. Current log-likelihood: -93105.070
-Optimal log-likelihood: -93104.942
-Rate parameters:  A-C: 1.83475  A-G: 2.73377  A-T: 1.25168  C-G: 1.47830  C-T: 3.06612  G-T: 1.00000
-Base frequencies:  A: 0.245  C: 0.240  G: 0.270  T: 0.245
-Gamma shape alpha: 1.150
-Parameters optimization took 5 rounds (1.239 sec)
+1. Initial log-likelihood: -35215.427
+2. Current log-likelihood: -33593.135
+3. Current log-likelihood: -33530.818
+4. Current log-likelihood: -33527.401
+5. Current log-likelihood: -33526.705
+Optimal log-likelihood: -33526.703
+Rate parameters:  A-C: 1.84617  A-G: 2.43477  A-T: 1.11379  C-G: 1.40401  C-T: 2.77401  G-T: 1.00000
+Base frequencies:  A: 0.251  C: 0.244  G: 0.263  T: 0.242
+Gamma shape alpha: 1.114
+Parameters optimization took 5 rounds (0.365 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.0594516 secs using 631.4% CPU
-Computing ML distances took 0.060018 sec (of wall-clock time) 0.375971 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.000842535 secs using 477.1% CPU
-Computing RapidNJ tree took 0.103900 sec (of wall-clock time) 0.196441 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -93331.301
+Calculating distance matrix: done in 0.00434417 secs using 823% CPU
+Computing ML distances took 0.004627 sec (of wall-clock time) 0.036039 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000423647 secs
+Computing RapidNJ tree took 0.023867 sec (of wall-clock time) 0.035609 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -33575.432
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 98 parsimony trees... 10.590 second
-Computing log-likelihood of 98 initial trees ... 3.976 seconds
-Current best score: -93104.942
+Generating 98 parsimony trees... 1.681 second
+Computing log-likelihood of 98 initial trees ... 1.701 seconds
+Current best score: -33526.703
 
 Do NNI search on 20 best initial trees
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 1: -92962.958
+BETTER TREE FOUND at iteration 1: -33507.534
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 6: -92952.677
+BETTER TREE FOUND at iteration 3: -33493.440
+Iteration 10 / LogL: -33500.061 / Time: 0h:1m:4s
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 8: -92944.091
-Iteration 10 / LogL: -92954.929 / Time: 0h:1m:30s
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 14: -92942.583
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 18: -92942.364
-Iteration 20 / LogL: -92945.677 / Time: 0h:1m:48s
-Finish initializing candidate tree set (20)
-Current best tree score: -92942.364 / CPU time: 51.138
+BETTER TREE FOUND at iteration 12: -33492.470
+Iteration 20 / LogL: -33493.710 / Time: 0h:1m:9s
+Finish initializing candidate tree set (16)
+Current best tree score: -33492.470 / CPU time: 12.116
 Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 26: -92940.504
+BETTER TREE FOUND at iteration 23: -33492.318
+Iteration 30 / LogL: -33496.231 / Time: 0h:1m:13s (0h:3m:54s left)
+Iteration 40 / LogL: -33496.494 / Time: 0h:1m:16s (0h:2m:42s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 28: -92940.350
-Iteration 30 / LogL: -93050.241 / Time: 0h:2m:3s (0h:6m:56s left)
-Iteration 40 / LogL: -93001.146 / Time: 0h:2m:17s (0h:5m:9s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 44: -92940.111
-Iteration 50 / LogL: -92945.387 / Time: 0h:2m:31s (0h:4m:50s left)
-Log-likelihood cutoff on original alignment: -93022.683
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 57: -92936.354
-Iteration 60 / LogL: -92941.799 / Time: 0h:2m:45s (0h:4m:32s left)
-Iteration 70 / LogL: -92942.201 / Time: 0h:2m:59s (0h:3m:46s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 76: -92934.493
-Iteration 80 / LogL: -92940.153 / Time: 0h:3m:13s (0h:3m:54s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 85: -92933.251
-Iteration 90 / LogL: -92936.751 / Time: 0h:3m:26s (0h:3m:40s left)
-Iteration 100 / LogL: -92936.573 / Time: 0h:3m:40s (0h:3m:8s left)
-Log-likelihood cutoff on original alignment: -92995.293
-NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
-Iteration 110 / LogL: -92936.443 / Time: 0h:3m:53s (0h:3m:12s left)
-Iteration 120 / LogL: -92936.382 / Time: 0h:4m:6s (0h:2m:45s left)
-Iteration 130 / LogL: -92940.317 / Time: 0h:4m:20s (0h:2m:21s left)
-Iteration 140 / LogL: -93015.651 / Time: 0h:4m:33s (0h:1m:57s left)
-Iteration 150 / LogL: -92965.105 / Time: 0h:4m:46s (0h:1m:36s left)
-Log-likelihood cutoff on original alignment: -92995.293
-Iteration 160 / LogL: -92934.289 / Time: 0h:5m:0s (0h:1m:15s left)
-Iteration 170 / LogL: -92937.919 / Time: 0h:5m:13s (0h:0m:55s left)
-Iteration 180 / LogL: -92964.919 / Time: 0h:5m:26s (0h:0m:36s left)
-TREE SEARCH COMPLETED AFTER 186 ITERATIONS / Time: 0h:5m:34s
+UPDATE BEST LOG-LIKELIHOOD: -33492.270
+Iteration 50 / LogL: -33492.310 / Time: 0h:1m:19s (0h:1m:58s left)
+Log-likelihood cutoff on original alignment: -33529.707
+Iteration 60 / LogL: -33493.350 / Time: 0h:1m:23s (0h:1m:28s left)
+Iteration 70 / LogL: -33494.951 / Time: 0h:1m:26s (0h:1m:6s left)
+UPDATE BEST LOG-LIKELIHOOD: -33492.266
+Iteration 80 / LogL: -33492.512 / Time: 0h:1m:29s (0h:0m:48s left)
+Iteration 90 / LogL: -33492.358 / Time: 0h:1m:32s (0h:0m:34s left)
+Iteration 100 / LogL: -33492.788 / Time: 0h:1m:35s (0h:0m:22s left)
+Log-likelihood cutoff on original alignment: -33529.707
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -33497.391 / Time: 0h:1m:38s (0h:1m:21s left)
+Iteration 120 / LogL: -33492.820 / Time: 0h:1m:41s (0h:1m:7s left)
+TREE SEARCH COMPLETED AFTER 124 ITERATIONS / Time: 0h:1m:42s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -92933.251
-Optimal log-likelihood: -92933.247
-Rate parameters:  A-C: 1.85260  A-G: 2.82438  A-T: 1.27135  C-G: 1.51353  C-T: 3.12851  G-T: 1.00000
-Base frequencies:  A: 0.245  C: 0.240  G: 0.270  T: 0.245
-Gamma shape alpha: 1.132
-Parameters optimization took 1 rounds (0.118 sec)
-BEST SCORE FOUND : -92933.247
+1. Initial log-likelihood: -33492.266
+2. Current log-likelihood: -33492.248
+Optimal log-likelihood: -33492.247
+Rate parameters:  A-C: 1.83295  A-G: 2.46238  A-T: 1.11742  C-G: 1.42959  C-T: 2.81342  G-T: 1.00000
+Base frequencies:  A: 0.251  C: 0.244  G: 0.263  T: 0.242
+Gamma shape alpha: 1.123
+Parameters optimization took 2 rounds (0.075 sec)
+BEST SCORE FOUND : -33492.247
 Creating bootstrap support values...
 Split supports printed to NEXUS file Alignment/Trees/nuc_tree.splits.nex
-Total tree length: 42.903
+Total tree length: 18.517
 
-Total number of iterations: 186
-CPU time used for tree search: 1583.190 sec (0h:26m:23s)
-Wall-clock time used for tree search: 276.718 sec (0h:4m:36s)
-Total CPU time used: 1771.368 sec (0h:29m:31s)
-Total wall-clock time used: 335.227 sec (0h:5m:35s)
+Total number of iterations: 124
+CPU time used for tree search: 257.948 sec (0h:4m:17s)
+Wall-clock time used for tree search: 45.144 sec (0h:0m:45s)
+Total CPU time used: 464.172 sec (0h:7m:44s)
+Total wall-clock time used: 102.279 sec (0h:1m:42s)
 
 Computing bootstrap consensus tree...
 Reading input file Alignment/Trees/nuc_tree.splits.nex...
-201 taxa and 927 splits.
+45 taxa and 291 splits.
 Consensus tree written to Alignment/Trees/nuc_tree.contree
 Reading input trees file Alignment/Trees/nuc_tree.contree
-Log-likelihood of consensus tree: -92933.836
+Log-likelihood of consensus tree: -33492.510
 
 Analysis results written to: 
   IQ-TREE report:                Alignment/Trees/nuc_tree.iqtree
@@ -475,4 +201,4 @@ Ultrafast bootstrap approximation results written to:
   Consensus tree:                Alignment/Trees/nuc_tree.contree
   Screen log file:               Alignment/Trees/nuc_tree.log
 
-Date and Time: Thu Jul 24 07:51:07 2025
+Date and Time: Tue Aug  5 02:25:54 2025
